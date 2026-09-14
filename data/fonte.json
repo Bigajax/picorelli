@@ -1,0 +1,477 @@
+{
+  "origem": "C:/Users/Rafael/Desktop/PicorelliPremium",
+  "categorias": [
+    "Camisetas",
+    "Camisas de futebol",
+    "Tênis",
+    "Perfumes"
+  ],
+  "itens": [
+    {
+      "foto": 0,
+      "nome": "Camiseta Hollister Big Fin Riders",
+      "marca": "Hollister",
+      "categoria": "Camisetas",
+      "cor": "várias cores",
+      "descricao": "Pack com 6 cores: preto, vermelho, verde, azul, rosa e branco.",
+      "destaque": true
+    },
+    {
+      "foto": 1,
+      "nome": "Camiseta Hollister Pacific Coast",
+      "marca": "Hollister",
+      "categoria": "Camisetas",
+      "cor": "várias cores",
+      "descricao": "Pack com 6 cores."
+    },
+    {
+      "foto": 2,
+      "nome": "Camiseta Hollister Beach Flyers",
+      "marca": "Hollister",
+      "categoria": "Camisetas",
+      "cor": "várias cores",
+      "descricao": "Pack com 6 cores.",
+      "extras": [
+        17
+      ]
+    },
+    {
+      "foto": 3,
+      "nome": "Camiseta Abercrombie & Fitch New York",
+      "marca": "Abercrombie & Fitch",
+      "categoria": "Camisetas",
+      "cor": "várias cores",
+      "descricao": "Pack com 6 cores.",
+      "extras": [
+        16
+      ]
+    },
+    {
+      "foto": 4,
+      "nome": "Camiseta Abercrombie Palm Beach",
+      "marca": "Abercrombie & Fitch",
+      "categoria": "Camisetas",
+      "cor": "várias cores",
+      "descricao": "Pack com 6 cores."
+    },
+    {
+      "foto": 6,
+      "nome": "Camiseta Abercrombie Los Angeles",
+      "marca": "Abercrombie & Fitch",
+      "categoria": "Camisetas",
+      "cor": "várias cores",
+      "descricao": "Pack com 6 cores.",
+      "extras": [
+        14
+      ]
+    },
+    {
+      "foto": 5,
+      "nome": "Camisa Milan retrô 2007 bwin",
+      "marca": "Milan",
+      "categoria": "Camisas de futebol",
+      "cor": "branco",
+      "descricao": "Camisa retrô, final da Champions 2007.",
+      "destaque": true
+    },
+    {
+      "foto": 8,
+      "nome": "Camisa Milan retrô Kaká 22",
+      "marca": "Milan",
+      "categoria": "Camisas de futebol",
+      "cor": "branco",
+      "descricao": "Retrô, com o 22 do Kaká nas costas."
+    },
+    {
+      "foto": 7,
+      "nome": "Camisa Barcelona Lamine Yamal 19",
+      "marca": "Barcelona",
+      "categoria": "Camisas de futebol",
+      "cor": "branco",
+      "descricao": "Segunda camisa, com o 19 do Lamine Yamal."
+    },
+    {
+      "foto": 9,
+      "nome": "Camisa Espanha retrô adidas",
+      "marca": "Espanha",
+      "categoria": "Camisas de futebol",
+      "cor": "branco"
+    },
+    {
+      "foto": 10,
+      "nome": "Camisa Santos Umbro",
+      "marca": "Santos",
+      "categoria": "Camisas de futebol",
+      "cor": "branco"
+    },
+    {
+      "foto": 11,
+      "nome": "Camisa Manchester United adidas",
+      "marca": "Manchester United",
+      "categoria": "Camisas de futebol",
+      "cor": "azul"
+    },
+    {
+      "foto": 12,
+      "nome": "Camisa Corinthians pré-jogo Nike",
+      "marca": "Corinthians",
+      "categoria": "Camisas de futebol",
+      "cor": "preto e branco"
+    },
+    {
+      "foto": 13,
+      "nome": "Camisa São Paulo New Balance 2024",
+      "marca": "São Paulo",
+      "categoria": "Camisas de futebol",
+      "cor": "branco",
+      "descricao": "Frente e costas.",
+      "extras": [
+        15
+      ],
+      "destaque": true
+    },
+    {
+      "foto": 18,
+      "nome": "Tênis Nike SB bege e laranja",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "bege e laranja",
+      "destaque": true
+    },
+    {
+      "foto": 19,
+      "nome": "Tênis Nike SB marrom",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "marrom"
+    },
+    {
+      "foto": 20,
+      "nome": "Tênis Nike Court azul",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "azul e branco"
+    },
+    {
+      "foto": 21,
+      "nome": "Tênis Nike SB branco e cinza",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "branco e cinza"
+    },
+    {
+      "foto": 22,
+      "nome": "Tênis LV Trainer azul",
+      "marca": "Louis Vuitton",
+      "categoria": "Tênis",
+      "cor": "azul",
+      "descricao": "Cano alto ou baixo.",
+      "destaque": true
+    },
+    {
+      "foto": 23,
+      "nome": "Tênis LV Trainer preto",
+      "marca": "Louis Vuitton",
+      "categoria": "Tênis",
+      "cor": "preto e branco",
+      "descricao": "Cano alto ou baixo.",
+      "extras": [
+        24
+      ]
+    },
+    {
+      "foto": 25,
+      "nome": "Tênis LV Trainer cinza",
+      "marca": "Louis Vuitton",
+      "categoria": "Tênis",
+      "cor": "cinza",
+      "descricao": "Cano alto ou baixo, com caixa."
+    },
+    {
+      "foto": 26,
+      "nome": "Tênis Nike Mind bege",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "bege"
+    },
+    {
+      "foto": 27,
+      "nome": "Tênis Nike Mind preto",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "preto"
+    },
+    {
+      "foto": 28,
+      "nome": "Tênis Nike Mind azul-marinho",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "azul-marinho"
+    },
+    {
+      "foto": 29,
+      "nome": "Tênis Nike Mind cinza",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "cinza"
+    },
+    {
+      "foto": 30,
+      "nome": "Tênis adidas Campus azul",
+      "marca": "adidas",
+      "categoria": "Tênis",
+      "cor": "azul",
+      "destaque": true
+    },
+    {
+      "foto": 31,
+      "nome": "Tênis adidas branco e preto",
+      "marca": "adidas",
+      "categoria": "Tênis",
+      "cor": "branco e preto",
+      "descricao": "Com caixa."
+    },
+    {
+      "foto": 32,
+      "nome": "Tênis Nike Air Max rosa",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "branco e rosa"
+    },
+    {
+      "foto": 33,
+      "nome": "Tênis Nike Air Max laranja",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "branco e laranja"
+    },
+    {
+      "foto": 34,
+      "nome": "Tênis Nike SB Dunk verde",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "verde e branco",
+      "destaque": true
+    },
+    {
+      "foto": 35,
+      "nome": "Tênis Nike Air Max preto",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "preto e branco"
+    },
+    {
+      "foto": 39,
+      "nome": "Tênis Nike Air Max preto e rosa",
+      "marca": "Nike",
+      "categoria": "Tênis",
+      "cor": "preto e rosa"
+    },
+    {
+      "foto": 36,
+      "nome": "Tênis Boss branco",
+      "marca": "Boss",
+      "categoria": "Tênis",
+      "cor": "branco"
+    },
+    {
+      "foto": 37,
+      "nome": "Tênis Boss preto",
+      "marca": "Boss",
+      "categoria": "Tênis",
+      "cor": "preto"
+    },
+    {
+      "foto": 38,
+      "nome": "Tênis Boss preto e bege",
+      "marca": "Boss",
+      "categoria": "Tênis",
+      "cor": "preto e bege"
+    },
+    {
+      "foto": 40,
+      "nome": "Tênis Boss caramelo",
+      "marca": "Boss",
+      "categoria": "Tênis",
+      "cor": "caramelo"
+    },
+    {
+      "foto": 42,
+      "nome": "Boss Bottled EDT coffret 100 ml",
+      "marca": "Hugo Boss",
+      "categoria": "Perfumes",
+      "preco": 350,
+      "preco_de": 399,
+      "destaque": true
+    },
+    {
+      "foto": 43,
+      "nome": "Versace Crystal Emerald 90 ml",
+      "marca": "Versace",
+      "categoria": "Perfumes",
+      "preco": 455,
+      "preco_de": 514
+    },
+    {
+      "foto": 44,
+      "nome": "Versace Eros Flame 100 ml",
+      "marca": "Versace",
+      "categoria": "Perfumes",
+      "preco": 389,
+      "preco_de": 439,
+      "extras": [
+        58
+      ],
+      "destaque": true
+    },
+    {
+      "foto": 45,
+      "nome": "Calvin Klein Eternity coffret 100 ml",
+      "marca": "Calvin Klein",
+      "categoria": "Perfumes",
+      "preco": 379,
+      "preco_de": 426
+    },
+    {
+      "foto": 46,
+      "nome": "Boucheron Quatre 100 ml",
+      "marca": "Boucheron",
+      "categoria": "Perfumes",
+      "preco": 409,
+      "preco_de": 463
+    },
+    {
+      "foto": 47,
+      "nome": "Givenchy Organza 100 ml",
+      "marca": "Givenchy",
+      "categoria": "Perfumes",
+      "preco": 479,
+      "preco_de": 540
+    },
+    {
+      "foto": 48,
+      "nome": "YSL Libre Flowers & Flames 90 ml",
+      "marca": "Yves Saint Laurent",
+      "categoria": "Perfumes",
+      "preco": 649,
+      "preco_de": 726
+    },
+    {
+      "foto": 49,
+      "nome": "Tommy Girl 200 ml",
+      "marca": "Tommy Hilfiger",
+      "categoria": "Perfumes",
+      "preco": 335,
+      "preco_de": 375
+    },
+    {
+      "foto": 50,
+      "nome": "Carolina Herrera Good Girl Jasmine Absolute 80 ml",
+      "marca": "Carolina Herrera",
+      "categoria": "Perfumes",
+      "preco": 609,
+      "preco_de": 692
+    },
+    {
+      "foto": 51,
+      "nome": "Givenchy Gentleman EDP 100 ml",
+      "marca": "Givenchy",
+      "categoria": "Perfumes",
+      "preco": 395,
+      "preco_de": 446
+    },
+    {
+      "foto": 52,
+      "nome": "Chloé Love Story 30 ml",
+      "marca": "Chloé",
+      "categoria": "Perfumes",
+      "preco": 215,
+      "preco_de": 240
+    },
+    {
+      "foto": 53,
+      "nome": "Rabanne 1 Million Night Elixir 100 ml",
+      "marca": "Rabanne",
+      "categoria": "Perfumes",
+      "preco": 509,
+      "preco_de": 568,
+      "extras": [
+        63
+      ],
+      "destaque": true
+    },
+    {
+      "foto": 54,
+      "nome": "Kenzo Flower kit 100 ml",
+      "marca": "Kenzo",
+      "categoria": "Perfumes",
+      "preco": 389,
+      "preco_de": 435
+    },
+    {
+      "foto": 55,
+      "nome": "Bvlgari Omnia Crystalline EDP 100 ml",
+      "marca": "Bvlgari",
+      "categoria": "Perfumes",
+      "preco": 609,
+      "preco_de": 684
+    },
+    {
+      "foto": 56,
+      "nome": "Versace Eros EDP 100 ml",
+      "marca": "Versace",
+      "categoria": "Perfumes",
+      "preco": 389,
+      "preco_de": 444
+    },
+    {
+      "foto": 57,
+      "nome": "Armani Power of You 90 ml",
+      "marca": "Giorgio Armani",
+      "categoria": "Perfumes",
+      "preco": 525,
+      "preco_de": 593
+    },
+    {
+      "foto": 59,
+      "nome": "Dolce & Gabbana The One EDP 75 ml",
+      "marca": "Dolce & Gabbana",
+      "categoria": "Perfumes",
+      "preco": 532,
+      "preco_de": 603
+    },
+    {
+      "foto": 60,
+      "nome": "Givenchy Irresistible kit 80 ml",
+      "marca": "Givenchy",
+      "categoria": "Perfumes",
+      "preco": 479,
+      "preco_de": 545
+    },
+    {
+      "foto": 61,
+      "nome": "Armani Acqua di Giò Profondo 200 ml",
+      "marca": "Giorgio Armani",
+      "categoria": "Perfumes",
+      "preco": 775,
+      "preco_de": 867,
+      "destaque": true
+    },
+    {
+      "foto": 62,
+      "nome": "Givenchy Gentleman Boisée EDP 100 ml",
+      "marca": "Givenchy",
+      "categoria": "Perfumes",
+      "preco": 398,
+      "preco_de": 446
+    },
+    {
+      "foto": 64,
+      "nome": "Chloé EDP 100 ml",
+      "marca": "Chloé",
+      "categoria": "Perfumes",
+      "preco": 497,
+      "preco_de": 562
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   PICORELLI PREMIUM — tokens.
+
+   A logo é preta e dourada, e a página obedece: o chão é veludo (não
+   preto puro, um carvão com grão), o dourado é FIO e TIPOGRAFIA, nunca
+   bloco cheio (a única exceção é o botão de ação), e a moldura de canto
+   aberto do monograma R é o dispositivo que segura o hero e os cartões.
+
+   Os nomes herdados da base (cimento, marrom, nude, off-white, tinta)
+   continuam existindo porque o painel administrativo é escrito neles;
+   aqui viram um papel claro: o painel é da dona, não é a vitrine.
+   ───────────────────────────────────────────────────────────── */
+@theme static {
+  --color-veludo: #141414;
+  --color-carvao: #1f1f1f;
+  --color-carvao-claro: #2a2a2a;
+  --color-ouro: #c9a227;
+  --color-ouro-claro: #e6c86a;
+  --color-ouro-fundo: #8a6e1a;
+  --color-marfim: #f3ede0;
+  --color-marfim-fraco: #9a9384;
+  --color-fio: #3a3527;
+
+  --color-off-white: #faf7f0;
+  --color-cimento-claro: #f2eee4;
+  --color-cimento: #e6e0d2;
+  --color-cimento-medio: #cfc6ae;
+  --color-cimento-escuro: #8f866f;
+  --color-marrom: #6b5a2c;
+  --color-marrom-fundo: #3a3012;
+  --color-nude: #c9a227;
+  --color-nude-claro: #f1e3b3;
+  --color-tinta: #1a1710;
+}
+
+:root {
+  --veludo: #141414;
+  --carvao: #1f1f1f;
+  --carvao-claro: #2a2a2a;
+  --ouro: #c9a227;
+  --ouro-claro: #e6c86a;
+  --ouro-fundo: #8a6e1a;
+  --marfim: #f3ede0;
+  --marfim-fraco: #9a9384;
+  --fio: #3a3527;
+
+  --off-white: #faf7f0;
+  --cimento-claro: #f2eee4;
+  --cimento: #e6e0d2;
+  --cimento-medio: #cfc6ae;
+  --cimento-escuro: #8f866f;
+  --marrom: #6b5a2c;
+  --marrom-fundo: #3a3012;
+  --nude: #c9a227;
+  --tinta: #1a1710;
+
+  --raio: 4px;
+  --transicao: 200ms ease-out;
+  --linha: var(--ouro);
+  --linha-peso: 1px;
+}
+
+html {
+  background-color: var(--veludo);
+  color-scheme: dark;
+}
+
+/* As famílias moram no body, não no :root: as variáveis --fonte-* do
+   next/font entram pela classe do body, e um var() que aponta para uma
+   variável que não existe no :root invalida a declaração inteira. */
+body {
+  --font-display: var(--fonte-display), "Cinzel", Georgia, serif;
+  --font-corpo: var(--fonte-corpo), "Manrope", system-ui, sans-serif;
+  --font-mono: var(--font-corpo);
+  color: var(--marfim);
+  font-family: var(--font-corpo);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* o grão do veludo: ruído fino, fixo, quase invisível */
+  background-color: var(--veludo);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .95 0 0 0 0 .8 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+}
+
+/* O painel pinta o próprio chão: ver app/painel/layout.tsx */
+.papel {
+  background: var(--off-white);
+  background-image: none;
+  color: var(--tinta);
+  color-scheme: light;
+}
+
+::selection {
+  background: var(--ouro);
+  color: var(--veludo);
+}
+
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--ouro-claro);
+  outline-offset: 3px;
+}
+.papel :where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline-color: var(--tinta);
+}
+
+/* ── tipografia ─────────────────────────────────────────────── */
+/* A romana da logo, em caixa alta e entreletra aberta: o nome, a
+   manchete, os títulos. O corpo é a Manrope, limpa. */
+.romana {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  line-height: 1.1;
+}
+.manchete {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 1.12;
+}
+.secao {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: var(--ouro);
+}
+.etiqueta {
+  font-family: var(--font-corpo);
+  font-weight: 700;
+  font-size: 0.6875rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ouro);
+}
+.titulo-cartao {
+  font-family: var(--font-corpo);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.35;
+}
+.preco {
+  font-family: var(--font-corpo);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+.falada {
+  font-family: var(--font-corpo);
+  font-weight: 500;
+  line-height: 1.55;
+}
+.miudo {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--marfim-fraco);
+}
+/* nomes herdados pelo painel e pelas páginas de lista */
+.display-secao {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.display-peca {
+  font-family: var(--font-corpo);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.35;
+}
+.display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 1.12;
+}
+.placa {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.mono {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+.mono-rotulo {
+  font-weight: 700;
+  font-size: 0.6875rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* ── controles ──────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--raio);
+  font-family: var(--font-corpo);
+  font-weight: 800;
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 1rem 1.5rem;
+  transition: background-color var(--transicao), color var(--transicao),
+    border-color var(--transicao), transform 120ms ease-out;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+/* o único bloco dourado da página */
+.btn--cta,
+.btn--primario {
+  background: var(--ouro);
+  color: var(--veludo);
+}
+.btn--cta:hover:not(:disabled),
+.btn--primario:hover:not(:disabled) {
+  background: var(--ouro-claro);
+}
+.btn--cta:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.btn--latao {
+  background: var(--ouro);
+  color: var(--veludo);
+}
+.btn--linha {
+  border: 1px solid var(--ouro);
+  color: var(--ouro);
+  background: transparent;
+}
+.btn--linha:hover:not(:disabled) {
+  background: rgba(201, 162, 39, 0.1);
+  color: var(--ouro-claro);
+}
+.btn--texto {
+  padding: 0.5rem 0;
+  border-radius: 0;
+  color: var(--ouro);
+  font-size: 0.75rem;
+}
+.btn--texto:hover:not(:disabled) {
+  color: var(--ouro-claro);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.papel .btn--primario,
+.papel .btn--cta {
+  background: var(--marrom-fundo);
+  color: var(--off-white);
+}
+.papel .btn--linha {
+  border-color: var(--marrom);
+  color: var(--marrom-fundo);
+}
+.papel .btn--texto {
+  color: var(--marrom-fundo);
+}
+
+.campo {
+  width: 100%;
+  border: 1px solid var(--cimento-medio);
+  border-radius: var(--raio);
+  background: var(--off-white);
+  padding: 0.6875rem 0.875rem;
+  font-family: var(--font-corpo);
+  font-size: 0.9375rem;
+  color: var(--tinta);
+  transition: border-color var(--transicao);
+}
+.campo:hover {
+  border-color: var(--cimento-escuro);
+}
+.campo:focus {
+  outline: none;
+  border-color: var(--marrom-fundo);
+}
+.campo::placeholder {
+  color: var(--cimento-escuro);
+}
+.campo--auto {
+  width: auto;
+}
+.campo--mono {
+  font-variant-numeric: tabular-nums;
+}
+
+/* o campo com o rótulo sentado na borda, sobre o carvão */
+.campo-flutuante {
+  position: relative;
+  display: block;
+}
+.campo-flutuante > span {
+  position: absolute;
+  top: -0.5rem;
+  left: 0.75rem;
+  padding: 0 0.375rem;
+  background: var(--carvao);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--marfim-fraco);
+  line-height: 1;
+  pointer-events: none;
+}
+.campo-flutuante > input,
+.campo-flutuante > select {
+  width: 100%;
+  border: 1px solid var(--fio);
+  border-radius: var(--raio);
+  background: var(--carvao);
+  padding: 0.9375rem 0.875rem 0.75rem;
+  font-family: var(--font-corpo);
+  font-size: 1rem;
+  color: var(--marfim);
+  transition: border-color var(--transicao);
+  appearance: none;
+}
+.campo-flutuante > select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2712%27 height=%278%27%3E%3Cpath d=%27M1 1l5 5 5-5%27 fill=%27none%27 stroke=%27%23c9a227%27 stroke-width=%271.8%27/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.875rem center;
+  padding-right: 2.25rem;
+  cursor: pointer;
+}
+.campo-flutuante > select option {
+  background: var(--carvao);
+  color: var(--marfim);
+}
+.campo-flutuante > input::placeholder {
+  color: var(--marfim-fraco);
+  opacity: 0.7;
+}
+.campo-flutuante > input:focus,
+.campo-flutuante > select:focus {
+  outline: none;
+  border-color: var(--ouro);
+}
+.campo-flutuante:focus-within > span {
+  color: var(--ouro);
+}
+
+/* a busca: linha, não caixa */
+.busca-linha {
+  border: 1px solid var(--fio);
+  border-radius: var(--raio);
+  background: transparent;
+  padding: 0.5rem 0.875rem;
+  font-family: var(--font-corpo);
+  font-size: 0.875rem;
+  color: var(--marfim);
+  transition: border-color var(--transicao);
+}
+.busca-linha::placeholder {
+  color: var(--marfim-fraco);
+}
+.busca-linha:hover,
+.busca-linha:focus {
+  outline: none;
+  border-color: var(--ouro);
+}
+.busca-linha option {
+  background: var(--carvao);
+  color: var(--marfim);
+}
+.papel .busca-linha {
+  color: var(--tinta);
+  border-color: var(--cimento-medio);
+}
+
+/* pílulas: fio dourado; a escolhida é ouro cheio com texto preto */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border: 1px solid var(--fio);
+  border-radius: var(--raio);
+  padding: 0.5rem 0.875rem;
+  font-family: var(--font-corpo);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--marfim);
+  background: transparent;
+  transition: border-color var(--transicao), background-color var(--transicao), color var(--transicao);
+  cursor: pointer;
+}
+.chip:hover {
+  border-color: var(--ouro);
+}
+.chip[aria-pressed="true"],
+.chip[data-ativo="true"],
+.chip--cheio {
+  border-color: var(--ouro);
+  background: var(--ouro);
+  color: var(--veludo);
+}
+.chip--quadrado {
+  padding: 0.625rem 1rem;
+}
+.papel .chip {
+  color: var(--tinta);
+  border-color: var(--cimento-medio);
+}
+.papel .chip[aria-pressed="true"] {
+  background: var(--marrom-fundo);
+  border-color: var(--marrom-fundo);
+  color: var(--off-white);
+}
+
+/* ── régua, moldura, cartão ─────────────────────────────────── */
+.regua {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--fio);
+  padding-bottom: 0.75rem;
+}
+.moldura {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border: 1px solid var(--linha);
+  border-radius: var(--raio);
+}
+.tem-moldura {
+  position: relative;
+}
+.tem-moldura > .moldura {
+  opacity: 0;
+  transition: opacity var(--transicao);
+}
+.tem-moldura:hover > .moldura,
+.tem-moldura:focus-within > .moldura,
+.tem-moldura[data-ativa="true"] > .moldura {
+  opacity: 1;
+}
+.papel .moldura {
+  border-color: var(--marrom);
+}
+.cartao {
+  background: var(--carvao);
+  border: 1px solid var(--fio);
+  border-radius: var(--raio);
+  overflow: hidden;
+  transition: border-color var(--transicao);
+}
+.cartao:hover {
+  border-color: var(--ouro-fundo);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   A MOLDURA DE CANTO ABERTO. É o quadrado do monograma R: dois cantos
+   em fio dourado, um em cima à esquerda e outro embaixo à direita,
+   com os lados abertos. Segura o hero e as fotos dos cartões.
+   ───────────────────────────────────────────────────────────── */
+.canto {
+  position: relative;
+}
+.canto::before,
+.canto::after {
+  content: "";
+  position: absolute;
+  width: var(--canto-tamanho, 1.5rem);
+  height: var(--canto-tamanho, 1.5rem);
+  border: 1px solid var(--ouro);
+  pointer-events: none;
+  z-index: 1;
+  transition: width var(--transicao), height var(--transicao), border-color var(--transicao);
+}
+.canto::before {
+  top: 0;
+  left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.canto::after {
+  bottom: 0;
+  right: 0;
+  border-left: 0;
+  border-top: 0;
+}
+.canto--grande {
+  --canto-tamanho: 3rem;
+}
+.canto--interno::before {
+  top: 0.625rem;
+  left: 0.625rem;
+}
+.canto--interno::after {
+  bottom: 0.625rem;
+  right: 0.625rem;
+}
+.group:hover .canto::before,
+.group:hover .canto::after {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-color: var(--ouro-claro);
+}
+
+/* ── trilhos horizontais ────────────────────────────────────── */
+.faixa-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-snap-type: x proximity;
+  scroll-padding-inline: 1rem;
+}
+@media (min-width: 640px) {
+  .faixa-scroll {
+    scroll-padding-inline: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .faixa-scroll {
+    scroll-padding-inline: 2.5rem;
+  }
+}
+.faixa-scroll::-webkit-scrollbar {
+  display: none;
+}
+.faixa-scroll > * {
+  scroll-snap-align: start;
+}
+
+/* a foto como veio: fundo claro da loja sobre o carvão, sem forçar */
+.foto {
+  position: relative;
+  overflow: hidden;
+  background: var(--carvao-claro);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

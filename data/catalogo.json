@@ -1,0 +1,1753 @@
+{
+  "categorias": [
+    {
+      "id": "c-camisetas",
+      "nome": "Camisetas",
+      "slug": "camisetas",
+      "ordem": 1,
+      "ativo": true,
+      "capa": "/produtos/camiseta-hollister-big-fin-riders.webp",
+      "capaBlur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoMAAsAA4BaJZQCw7ELUmMnmIAA/oXJtl56iUU9+Zz1kgiEdwWsd5cpfG6asNoCI45UIxJhKikNx3PIzGqVUbE+qUQoL/P4DacOPuxvGguAAAAA"
+    },
+    {
+      "id": "c-camisas-de-futebol",
+      "nome": "Camisas de futebol",
+      "slug": "camisas-de-futebol",
+      "ordem": 2,
+      "ativo": true,
+      "capa": "/produtos/camisa-milan-retro-2007-bwin.webp",
+      "capaBlur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoMAAwAA4BaJaQAAxZlvN09SAAA/url6KjFFXY9DeSsjDWlzr4SqsdTNLWn5hpLqFgAAA=="
+    },
+    {
+      "id": "c-tenis",
+      "nome": "Tênis",
+      "slug": "tenis",
+      "ordem": 3,
+      "ativo": true,
+      "capa": "/produtos/tenis-nike-sb-bege-e-laranja.webp",
+      "capaBlur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoJAAwAA4BaJZACdADZY7RVwAD+QRc/FwUfZ8rG6qHYtAnjFWt2yVMPmGocE48z1tjpfVs7E387t/GKM+DfJbiCN0wPsAT1YAAAAA=="
+    },
+    {
+      "id": "c-perfumes",
+      "nome": "Perfumes",
+      "slug": "perfumes",
+      "ordem": 4,
+      "ativo": true,
+      "capa": "/produtos/boss-bottled-edt-coffret-100-ml.webp",
+      "capaBlur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoMAAwAA4BaJbACdADXBvWpgAD+tCvFFdBOsfZ+eiq1WEZ5UDXzB7V2UY5Pdx7/37NKH3VJ1DVIKAZ1bclV5Abyv3UVzLFnEYjEOaDfFAh6nLMBAAA="
+    }
+  ],
+  "produtos": [
+    {
+      "id": "p-001",
+      "codigo": "PP-0001",
+      "nome": "Camiseta Hollister Big Fin Riders",
+      "slug": "camiseta-hollister-big-fin-riders",
+      "descricao": "Pack com 6 cores: preto, vermelho, verde, azul, rosa e branco.",
+      "marca": "Hollister",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisetas",
+      "tamanhos": [],
+      "cores": [
+        "várias cores"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 1,
+      "imagens": [
+        {
+          "url": "/produtos/camiseta-hollister-big-fin-riders.webp",
+          "largura": 1200,
+          "altura": 1084,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoMAAsAA4BaJZQCw7ELUmMnmIAA/oXJtl56iUU9+Zz1kgiEdwWsd5cpfG6asNoCI45UIxJhKikNx3PIzGqVUbE+qUQoL/P4DacOPuxvGguAAAAA",
+          "alt": "Camiseta Hollister Big Fin Riders",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-002",
+      "codigo": "PP-0002",
+      "nome": "Camiseta Hollister Pacific Coast",
+      "slug": "camiseta-hollister-pacific-coast",
+      "descricao": "Pack com 6 cores.",
+      "marca": "Hollister",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisetas",
+      "tamanhos": [],
+      "cores": [
+        "várias cores"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 101,
+      "imagens": [
+        {
+          "url": "/produtos/camiseta-hollister-pacific-coast.webp",
+          "largura": 1200,
+          "altura": 1001,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoMAAoAA4BaJZwCdADZOh0RAAD9puQCj+1cJD7U6e/ysdoQG/HZxBySTvi39cSJxY32MMjQ0+lKN226DcdBi6K6JBtxoYO3BkbQFEAA",
+          "alt": "Camiseta Hollister Pacific Coast",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-003",
+      "codigo": "PP-0003",
+      "nome": "Camiseta Hollister Beach Flyers",
+      "slug": "camiseta-hollister-beach-flyers",
+      "descricao": "Pack com 6 cores.",
+      "marca": "Hollister",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisetas",
+      "tamanhos": [],
+      "cores": [
+        "várias cores"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 102,
+      "imagens": [
+        {
+          "url": "/produtos/camiseta-hollister-beach-flyers.webp",
+          "largura": 1200,
+          "altura": 1007,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoMAAoAA4BaJQBdgCKxuZbh0HpyIAD0DXJgilBqQjNRnxwFg5IfZvx6kDSK5jkFbyIqkIyK/zKBGjxsJ3FBdEl20BdRsZALpWesMAAA",
+          "alt": "Camiseta Hollister Beach Flyers",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/camiseta-hollister-beach-flyers-2.webp",
+          "largura": 1200,
+          "altura": 1007,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoMAAoAA4BaJQBdgCKxuZbh0HpyIAD0DXJgilBqQjNRnxwFg5IfZvx6kDSK5jkFbyIqkIyK/zKBGjxsJ3FBdEl20BdRsZALpWesMAAA",
+          "alt": "Camiseta Hollister Beach Flyers",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-004",
+      "codigo": "PP-0004",
+      "nome": "Camiseta Abercrombie & Fitch New York",
+      "slug": "camiseta-abercrombie-fitch-new-york",
+      "descricao": "Pack com 6 cores.",
+      "marca": "Abercrombie & Fitch",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisetas",
+      "tamanhos": [],
+      "cores": [
+        "várias cores"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 103,
+      "imagens": [
+        {
+          "url": "/produtos/camiseta-abercrombie-fitch-new-york.webp",
+          "largura": 1200,
+          "altura": 1106,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoMAAsAA4BaJZACdADdi9VQLMfwAP11j9YGP6bdqrjnrfk9mBIVkHvc4KXYxPTZFcjaNu2lE+LA2eZ8+zbnLu5+2gXbQZA9UgntN8VF8iy+q4CiAAA=",
+          "alt": "Camiseta Abercrombie & Fitch New York",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/camiseta-abercrombie-fitch-new-york-2.webp",
+          "largura": 1200,
+          "altura": 1106,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoMAAsAA4BaJZACdADdi9VQLMfwAP11j9YGP6bdqrjnrfk9mBIVkHvc4KXYxPTZFcjaNu2lE+LA2eZ8+zbnLu5+2gXbQZA9UgntN8VF8iy+q4CiAAA=",
+          "alt": "Camiseta Abercrombie & Fitch New York",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-005",
+      "codigo": "PP-0005",
+      "nome": "Camiseta Abercrombie Palm Beach",
+      "slug": "camiseta-abercrombie-palm-beach",
+      "descricao": "Pack com 6 cores.",
+      "marca": "Abercrombie & Fitch",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisetas",
+      "tamanhos": [],
+      "cores": [
+        "várias cores"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 104,
+      "imagens": [
+        {
+          "url": "/produtos/camiseta-abercrombie-palm-beach.webp",
+          "largura": 1200,
+          "altura": 1095,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoMAAsAA4BaJQBOgCHpU9Qr3knJgAD+TdONUSEdg/LoeTyVW+VtORJ+3hnlPB4wwxwihJmwi0/EPri1Ar3JZ2v/TO0S49KQqe+rCO/E0yX0AAAA",
+          "alt": "Camiseta Abercrombie Palm Beach",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-006",
+      "codigo": "PP-0006",
+      "nome": "Camiseta Abercrombie Los Angeles",
+      "slug": "camiseta-abercrombie-los-angeles",
+      "descricao": "Pack com 6 cores.",
+      "marca": "Abercrombie & Fitch",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisetas",
+      "tamanhos": [],
+      "cores": [
+        "várias cores"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 105,
+      "imagens": [
+        {
+          "url": "/produtos/camiseta-abercrombie-los-angeles.webp",
+          "largura": 1200,
+          "altura": 1007,
+          "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoMAAoAA4BaJZQC7AEfsgZX3AAA/jOns6HlF54ndKpGYQvFYc2oXX9wFLd8xx6+14/Z8PY+IbP6si8Z/OoXQ7jnUamc8sRq8CxAAA==",
+          "alt": "Camiseta Abercrombie Los Angeles",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/camiseta-abercrombie-los-angeles-2.webp",
+          "largura": 1200,
+          "altura": 1007,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoMAAoAA4BaJZQC7AEfsW5RAAD+M6ezoeUXnid0qkZhC8Vhzahdf3AUt3zHHr7XkJ6pl/0jmbULcrPhJ+32x2PLeQfBk++hY4yrAAAA",
+          "alt": "Camiseta Abercrombie Los Angeles",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-007",
+      "codigo": "PP-0007",
+      "nome": "Camisa Milan retrô 2007 bwin",
+      "slug": "camisa-milan-retro-2007-bwin",
+      "descricao": "Camisa retrô, final da Champions 2007.",
+      "marca": "Milan",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisas-de-futebol",
+      "tamanhos": [],
+      "cores": [
+        "branco"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 2,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-milan-retro-2007-bwin.webp",
+          "largura": 1170,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoMAAwAA4BaJaQAAxZlvN09SAAA/url6KjFFXY9DeSsjDWlzr4SqsdTNLWn5hpLqFgAAA==",
+          "alt": "Camisa Milan retrô 2007 bwin",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-008",
+      "codigo": "PP-0008",
+      "nome": "Camisa Milan retrô Kaká 22",
+      "slug": "camisa-milan-retro-kaka-22",
+      "descricao": "Retrô, com o 22 do Kaká nas costas.",
+      "marca": "Milan",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisas-de-futebol",
+      "tamanhos": [],
+      "cores": [
+        "branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 107,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-milan-retro-kaka-22.webp",
+          "largura": 1170,
+          "altura": 1328,
+          "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoLAAwAA4BaJZwAAt4/5l/VROIAAP6sc1HzRikH8zG3hGiaQuGrM2VdsCGgyOcvTMM03Sse/XIGASd2332qmmVqGEtHz+T4AAA=",
+          "alt": "Camisa Milan retrô Kaká 22",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-009",
+      "codigo": "PP-0009",
+      "nome": "Camisa Barcelona Lamine Yamal 19",
+      "slug": "camisa-barcelona-lamine-yamal-19",
+      "descricao": "Segunda camisa, com o 19 do Lamine Yamal.",
+      "marca": "Barcelona",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisas-de-futebol",
+      "tamanhos": [],
+      "cores": [
+        "branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 108,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-barcelona-lamine-yamal-19.webp",
+          "largura": 1170,
+          "altura": 1199,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoMAAwAA4BaJYgCdAYuvuKADkbJk4AA/pt2JfL08AkHKl3PL2FWziLr0yayb4yqwKCeDbSJs7hD4hdms8WIGKyLxRTLYfu8zhGSDmNit87PAAAA",
+          "alt": "Camisa Barcelona Lamine Yamal 19",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-010",
+      "codigo": "PP-0010",
+      "nome": "Camisa Espanha retrô adidas",
+      "slug": "camisa-espanha-retro-adidas",
+      "descricao": null,
+      "marca": "Espanha",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisas-de-futebol",
+      "tamanhos": [],
+      "cores": [
+        "branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 109,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-espanha-retro-adidas.webp",
+          "largura": 1170,
+          "altura": 1038,
+          "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoMAAsAA4BaJQBOgCIOvJQo15pAAP6b3DQUSkgavFqtQ9ek/kyobn4ejT1n+jOEfEcTYWaOE3bm0dC8rR08kiKMT1ETzqDeAAA=",
+          "alt": "Camisa Espanha retrô adidas",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-011",
+      "codigo": "PP-0011",
+      "nome": "Camisa Santos Umbro",
+      "slug": "camisa-santos-umbro",
+      "descricao": null,
+      "marca": "Santos",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisas-de-futebol",
+      "tamanhos": [],
+      "cores": [
+        "branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 110,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-santos-umbro.webp",
+          "largura": 1170,
+          "altura": 1474,
+          "blur": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAADQAQCdASoKAAwAA4BaJaQAAudgtyVzgAD+60xJCJDXEM3J5qwBAAAA",
+          "alt": "Camisa Santos Umbro",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-012",
+      "codigo": "PP-0012",
+      "nome": "Camisa Manchester United adidas",
+      "slug": "camisa-manchester-united-adidas",
+      "descricao": null,
+      "marca": "Manchester United",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisas-de-futebol",
+      "tamanhos": [],
+      "cores": [
+        "azul"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 111,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-manchester-united-adidas.webp",
+          "largura": 1169,
+          "altura": 1145,
+          "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoMAAwAA4BaJbACdAEfvxh1Z/qlEAD+uDNZko/T+gR7/L/p3UmkcJOPRfrGVi70YdfI2AopUC8aQ4xvIBvIgQcbztaU0/XJ4hx8f4XpMCqX7xj/EN/LV3cQQAA=",
+          "alt": "Camisa Manchester United adidas",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-013",
+      "codigo": "PP-0013",
+      "nome": "Camisa Corinthians pré-jogo Nike",
+      "slug": "camisa-corinthians-pre-jogo-nike",
+      "descricao": null,
+      "marca": "Corinthians",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisas-de-futebol",
+      "tamanhos": [],
+      "cores": [
+        "preto e branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 112,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-corinthians-pre-jogo-nike.webp",
+          "largura": 988,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoJAAwAA4BaJYwCsADcdz9AAAD+TlcmUMBr3ld4HCTj5MrK0nF+/QehlJtdu2q17nVoL4fLPspGPSjgvzpGAAAA",
+          "alt": "Camisa Corinthians pré-jogo Nike",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-014",
+      "codigo": "PP-0014",
+      "nome": "Camisa São Paulo New Balance 2024",
+      "slug": "camisa-sao-paulo-new-balance-2024",
+      "descricao": "Frente e costas.",
+      "marca": "São Paulo",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "camisas-de-futebol",
+      "tamanhos": [],
+      "cores": [
+        "branco"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 3,
+      "imagens": [
+        {
+          "url": "/produtos/camisa-sao-paulo-new-balance-2024.webp",
+          "largura": 998,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoJAAwAA4BaJYwCdADb8XFsAAD+T4N1H6Mct5I03UMj9NyomJmF0j8yQETdKzJxQVlydIt6+ZRcHyJi8qJBv8CfSyHsAA==",
+          "alt": "Camisa São Paulo New Balance 2024",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/camisa-sao-paulo-new-balance-2024-2.webp",
+          "largura": 990,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoJAAwAA4BaJYgCdAEQE0PyqVwAAP6tn3V5mFRCF4XVb26HyJjvw8iHzCibNHaXvZSEqSjU/Gj+1JauLjyJ9EoRrLpkUHrnhgn3E3YkAAA=",
+          "alt": "Camisa São Paulo New Balance 2024",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-015",
+      "codigo": "PP-0015",
+      "nome": "Tênis Nike SB bege e laranja",
+      "slug": "tenis-nike-sb-bege-e-laranja",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "bege e laranja"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 4,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-sb-bege-e-laranja.webp",
+          "largura": 1125,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoJAAwAA4BaJZACdADZY7RVwAD+QRc/FwUfZ8rG6qHYtAnjFWt2yVMPmGocE48z1tjpfVs7E387t/GKM+DfJbiCN0wPsAT1YAAAAA==",
+          "alt": "Tênis Nike SB bege e laranja",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-016",
+      "codigo": "PP-0016",
+      "nome": "Tênis Nike SB marrom",
+      "slug": "tenis-nike-sb-marrom",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "marrom"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 115,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-sb-marrom.webp",
+          "largura": 1125,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoJAAwAA4BaJQBdgMW0tb9FJ8AA/jOQqzOOVakvbiey46yWGKqoSwMN6PEMozJgUe+A+tOt5z0wZXH0+evPXVF4qy6BkAAA",
+          "alt": "Tênis Nike SB marrom",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-017",
+      "codigo": "PP-0017",
+      "nome": "Tênis Nike Court azul",
+      "slug": "tenis-nike-court-azul",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "azul e branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 116,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-court-azul.webp",
+          "largura": 1125,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAQCdASoJAAwAA4BaJbACdADYrICgAP6lg+6RHSgFzyV8EYW0eXVAVYRYvcCT67EI4h/pYc42P1wcsYQ3HyfBGiNvv64lmEy33kN1fdo1xAAIUkw4DwJAAAA=",
+          "alt": "Tênis Nike Court azul",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-018",
+      "codigo": "PP-0018",
+      "nome": "Tênis Nike SB branco e cinza",
+      "slug": "tenis-nike-sb-branco-e-cinza",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "branco e cinza"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 117,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-sb-branco-e-cinza.webp",
+          "largura": 1125,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoJAAwAA4BaJZACdAYsja29Hf+2AAD+h6T+xPEuuASHgy8JenpO79eAGewc9aOa956ccB5w7B/bYnpIt/0IB71m3NvYoq06VBc0wAAA",
+          "alt": "Tênis Nike SB branco e cinza",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-019",
+      "codigo": "PP-0019",
+      "nome": "Tênis LV Trainer azul",
+      "slug": "tenis-lv-trainer-azul",
+      "descricao": "Cano alto ou baixo.",
+      "marca": "Louis Vuitton",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "azul"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 5,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-lv-trainer-azul.webp",
+          "largura": 960,
+          "altura": 1026,
+          "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoLAAwAA4BaJYwCdAYuHn0XFLPwAAD7c033KIM22B604AGUBjUjkbleilvEBdERX0TU0a7ZgBDdfrTK7q2rSq0/7WvFmr+3gpMAcwIKbf2ClTMGmGln2v6zI2dgAAAA",
+          "alt": "Tênis LV Trainer azul",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-020",
+      "codigo": "PP-0020",
+      "nome": "Tênis LV Trainer preto",
+      "slug": "tenis-lv-trainer-preto",
+      "descricao": "Cano alto ou baixo.",
+      "marca": "Louis Vuitton",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "preto e branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 119,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-lv-trainer-preto.webp",
+          "largura": 960,
+          "altura": 1029,
+          "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwAgCdASoLAAwAA4BaJZACdAUYAyhRCCVpAAD+wknILPPDAWtEZWd+Zm8YbJMSEWQKFeinrSvoYJl9FwYxsMctV7IWL4O/J/53qZOWZTKsvToapqYy1GhgztEVHwolKp1PeXfOMI7edYAA",
+          "alt": "Tênis LV Trainer preto",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/tenis-lv-trainer-preto-2.webp",
+          "largura": 960,
+          "altura": 1077,
+          "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoLAAwAA4BaJQBOj+AQUpMoRN4AAPpGxakZiFk7VCKXkibYZF0xv1Sue2lFPjBF271lu7YzT5Aj3ba5r4e9XpYyEHTgPzznK3rtrl2nqLLL4WfMIjFPkP24OWeQAA==",
+          "alt": "Tênis LV Trainer preto",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-021",
+      "codigo": "PP-0021",
+      "nome": "Tênis LV Trainer cinza",
+      "slug": "tenis-lv-trainer-cinza",
+      "descricao": "Cano alto ou baixo, com caixa.",
+      "marca": "Louis Vuitton",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "cinza"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 120,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-lv-trainer-cinza.webp",
+          "largura": 960,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoJAAwAA4BaJQBOgBsW+AAAzc9EdH6vfKNSbEban/LSJyIU1z6BUphLSD1Y4jPUSYGmtkrmDbbx5UQ82jHkx263zX96gAAA",
+          "alt": "Tênis LV Trainer cinza",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-022",
+      "codigo": "PP-0022",
+      "nome": "Tênis Nike Mind bege",
+      "slug": "tenis-nike-mind-bege",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "bege"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 121,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-mind-bege.webp",
+          "largura": 960,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoJAAwAA4BaJQBOgBstMuq1kAD8y+pBnN+7N2zoB/c/P6zxYm1gP84bamYyk7g1KiB6GVkeGk+iSIcMxw6Qb9EUSYOdAAAA",
+          "alt": "Tênis Nike Mind bege",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-023",
+      "codigo": "PP-0023",
+      "nome": "Tênis Nike Mind preto",
+      "slug": "tenis-nike-mind-preto",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 122,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-mind-preto.webp",
+          "largura": 960,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoJAAwAA4BaJQBOgB6UiGRQx8AA/fwAIowTgPGRwOzafAhd2ZiNJISW1eMfXFyqbxCF35p4moptWeEHoTZZeo3+jq14mIzMNZjEYAAA",
+          "alt": "Tênis Nike Mind preto",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-024",
+      "codigo": "PP-0024",
+      "nome": "Tênis Nike Mind azul-marinho",
+      "slug": "tenis-nike-mind-azul-marinho",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "azul-marinho"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 123,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-mind-azul-marinho.webp",
+          "largura": 960,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoJAAwAA4BaJZgCdADyaM5OAAD+ZlSjHe58oAgtu9KLX/0pmMrZesbkqLbF1D9A8fHs+BTGZOCYkFzBl5qnAWPosbwBJFyQAAA=",
+          "alt": "Tênis Nike Mind azul-marinho",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-025",
+      "codigo": "PP-0025",
+      "nome": "Tênis Nike Mind cinza",
+      "slug": "tenis-nike-mind-cinza",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "cinza"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 124,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-mind-cinza.webp",
+          "largura": 960,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoJAAwAA4BaJYwCdADYui8AAPdNUnt9DJ8Tg6k5XUwfAmg+RJdZjlrXNNY7xj/Nyru3MCOmymQ+Eb72bI0LJVIAAAA=",
+          "alt": "Tênis Nike Mind cinza",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-026",
+      "codigo": "PP-0026",
+      "nome": "Tênis adidas Campus azul",
+      "slug": "tenis-adidas-campus-azul",
+      "descricao": null,
+      "marca": "adidas",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "azul"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 6,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-adidas-campus-azul.webp",
+          "largura": 1125,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoJAAwAA4BaJagCdAYtpmxJizMHMwAA/rp0QYYbKviwzPh+mQkP268bSy5ETTTLjjXvtb9YbRYAWHAz2wZbYgsekK2KzBnl1JR0yhy0ygprwAAA",
+          "alt": "Tênis adidas Campus azul",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-027",
+      "codigo": "PP-0027",
+      "nome": "Tênis adidas branco e preto",
+      "slug": "tenis-adidas-branco-e-preto",
+      "descricao": "Com caixa.",
+      "marca": "adidas",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "branco e preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 126,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-adidas-branco-e-preto.webp",
+          "largura": 960,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoJAAwAA4BaJbACdADcq5gFSgAA/NefQunbsG17a8d3WDFSsOpSt9kPeQsAoPYCvFulwZocE774KJUqLfKxQkUIMja76kirCIJhagzTqTse8AAA",
+          "alt": "Tênis adidas branco e preto",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-028",
+      "codigo": "PP-0028",
+      "nome": "Tênis Nike Air Max rosa",
+      "slug": "tenis-nike-air-max-rosa",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "branco e rosa"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 127,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-air-max-rosa.webp",
+          "largura": 844,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABQAgCdASoHAAwAA4BaJQBOkCYwVROe3Fm/9nAA/CoCnCE22Z3cUfpVtl70JIN9ZaxDFQkIrDHbUAlKTxDKoZb2hyKVCF9pwtzfEduEBY8ihz+AAAA=",
+          "alt": "Tênis Nike Air Max rosa",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-029",
+      "codigo": "PP-0029",
+      "nome": "Tênis Nike Air Max laranja",
+      "slug": "tenis-nike-air-max-laranja",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "branco e laranja"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 128,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-air-max-laranja.webp",
+          "largura": 880,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoIAAwAA4BaJbACdADzgl9dwAD+2qwr7sU16oN3NxL2rxgL7LoA603X+KiFgECVs2Vnywym+blHrk0YJ7jvWfH5VdOvGdNnlo0MIk6Gat79SAUDoAA=",
+          "alt": "Tênis Nike Air Max laranja",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-030",
+      "codigo": "PP-0030",
+      "nome": "Tênis Nike SB Dunk verde",
+      "slug": "tenis-nike-sb-dunk-verde",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "verde e branco"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 7,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-sb-dunk-verde.webp",
+          "largura": 1200,
+          "altura": 1389,
+          "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABwAgCdASoKAAwAA4BaJbACdDBRAafj6sG1bpAAAP5J3gD2Yby4z755aOLyTm4csKwEt/tYozPqZ4Gslk6GR7e/Y6TsVbyZH3bInpeSvN/vwzI0hy2rSHfkGRMs0X/ktJ6WJQC4al9o73idW/lV/InV8cWQzhbWabHCCAAA",
+          "alt": "Tênis Nike SB Dunk verde",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-031",
+      "codigo": "PP-0031",
+      "nome": "Tênis Nike Air Max preto",
+      "slug": "tenis-nike-air-max-preto",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "preto e branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 130,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-air-max-preto.webp",
+          "largura": 844,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAgCdASoHAAwAA4BaJZQC7H8AgpStbq3OoAAA9nRBQufU86jJSmg8Dxb5xseWqKql2kdc4uYMx6IJrFm6rtROtc+j8fDbm0/iMIhggAA=",
+          "alt": "Tênis Nike Air Max preto",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-032",
+      "codigo": "PP-0032",
+      "nome": "Tênis Nike Air Max preto e rosa",
+      "slug": "tenis-nike-air-max-preto-e-rosa",
+      "descricao": null,
+      "marca": "Nike",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "preto e rosa"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 131,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-nike-air-max-preto-e-rosa.webp",
+          "largura": 844,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoHAAwAA4BaJYwCdAD0Tw12JMAA4n5aDgQILO/BaMMYdymH4M50VOXeoRi3qLnSPS+TEFAFEeYS8+6WTjCLfMZ4AAA=",
+          "alt": "Tênis Nike Air Max preto e rosa",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-033",
+      "codigo": "PP-0033",
+      "nome": "Tênis Boss branco",
+      "slug": "tenis-boss-branco",
+      "descricao": null,
+      "marca": "Boss",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "branco"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 132,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-boss-branco.webp",
+          "largura": 1125,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoJAAwAA4BaJZwAApdA4AAA/o09BQogANKmhF6aoEfi+Y9T+s0vhxzRZeAAAA==",
+          "alt": "Tênis Boss branco",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-034",
+      "codigo": "PP-0034",
+      "nome": "Tênis Boss preto",
+      "slug": "tenis-boss-preto",
+      "descricao": null,
+      "marca": "Boss",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 133,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-boss-preto.webp",
+          "largura": 1125,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoJAAwAA4BaJZQC7AD0omOrgAAA/u2rbqapgY+3VsLynD4YsF/Egq1zDzAu/2Sk79t8ZyzUlOcWUhrCAAA=",
+          "alt": "Tênis Boss preto",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-035",
+      "codigo": "PP-0035",
+      "nome": "Tênis Boss preto e bege",
+      "slug": "tenis-boss-preto-e-bege",
+      "descricao": null,
+      "marca": "Boss",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "preto e bege"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 134,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-boss-preto-e-bege.webp",
+          "largura": 1125,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoJAAwAA4BaJZQAD4ftZwdENfhAAP7HFuel5LPSNg2OlDVgjGOaD9Hs9J2mFxPaYqhS1I5EbCCZzS8AAAA=",
+          "alt": "Tênis Boss preto e bege",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-036",
+      "codigo": "PP-0036",
+      "nome": "Tênis Boss caramelo",
+      "slug": "tenis-boss-caramelo",
+      "descricao": null,
+      "marca": "Boss",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "tenis",
+      "tamanhos": [],
+      "cores": [
+        "caramelo"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 135,
+      "imagens": [
+        {
+          "url": "/produtos/tenis-boss-caramelo.webp",
+          "largura": 1125,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoJAAwAA4BaJZwAApd0EQAA/sP/BT2BSLhVmh0JfaBFKMVMe9lkvq3mBbEllQ1DVgLQTh/mjcvAAA==",
+          "alt": "Tênis Boss caramelo",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-037",
+      "codigo": "PP-0037",
+      "nome": "Boss Bottled EDT coffret 100 ml",
+      "slug": "boss-bottled-edt-coffret-100-ml",
+      "descricao": null,
+      "marca": "Hugo Boss",
+      "preco": 399,
+      "preco_promocional": 350,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 8,
+      "imagens": [
+        {
+          "url": "/produtos/boss-bottled-edt-coffret-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoMAAwAA4BaJbACdADXBvWpgAD+tCvFFdBOsfZ+eiq1WEZ5UDXzB7V2UY5Pdx7/37NKH3VJ1DVIKAZ1bclV5Abyv3UVzLFnEYjEOaDfFAh6nLMBAAA=",
+          "alt": "Boss Bottled EDT coffret 100 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-038",
+      "codigo": "PP-0038",
+      "nome": "Versace Crystal Emerald 90 ml",
+      "slug": "versace-crystal-emerald-90-ml",
+      "descricao": null,
+      "marca": "Versace",
+      "preco": 514,
+      "preco_promocional": 455,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 137,
+      "imagens": [
+        {
+          "url": "/produtos/versace-crystal-emerald-90-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQAQCdASoMAAwAA4BaJbACdADJRpYAAAD+tCvFFdBOsfZ+egx9qWSX9ZVNVUwe+X8+IccoTCua3RrxCnz4HVaNcxWwZ64CwbzkKWORAnTBbJzaT/JrOVGtkKoerlY9pAY+gwqDqgAAAA==",
+          "alt": "Versace Crystal Emerald 90 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-039",
+      "codigo": "PP-0039",
+      "nome": "Versace Eros Flame 100 ml",
+      "slug": "versace-eros-flame-100-ml",
+      "descricao": null,
+      "marca": "Versace",
+      "preco": 439,
+      "preco_promocional": 389,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 9,
+      "imagens": [
+        {
+          "url": "/produtos/versace-eros-flame-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoMAAwAA4BaJbACdADcn8IEzT6AAP60K8UV0E6x9n56K2fjOlyrLoP3aq1Sw9ywc+b7L1fCsWjeduD5fy5R+ZmiGVWgEl8Crr1QYKJTdduTlm/YxbByQ2iOoAAAAA==",
+          "alt": "Versace Eros Flame 100 ml",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/versace-eros-flame-100-ml-2.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAQCdASoMAAwAA4BaJbACdADdO8wSS+AA/rQrxRXQTrH2fnorZ+M6XKt4uiiZldljO6hDqV9kHc4HqI6djuE21dPMLsRIYNS4/dFvHBV10leSfgEM+OimtCGfTSuAdbnjEAAA",
+          "alt": "Versace Eros Flame 100 ml",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-040",
+      "codigo": "PP-0040",
+      "nome": "Calvin Klein Eternity coffret 100 ml",
+      "slug": "calvin-klein-eternity-coffret-100-ml",
+      "descricao": null,
+      "marca": "Calvin Klein",
+      "preco": 426,
+      "preco_promocional": 379,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 139,
+      "imagens": [
+        {
+          "url": "/produtos/calvin-klein-eternity-coffret-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoMAAwAA4BaJbACdADbpXZlQMAA/rQrxRXQTrH2fnorZ+M6XKvkcdxC//Y4+OVR4UMCZyIYJe3un8efz0b+uj/fBDEW7069pxcms87FXd9G230rLRKtgAAA",
+          "alt": "Calvin Klein Eternity coffret 100 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-041",
+      "codigo": "PP-0041",
+      "nome": "Boucheron Quatre 100 ml",
+      "slug": "boucheron-quatre-100-ml",
+      "descricao": null,
+      "marca": "Boucheron",
+      "preco": 463,
+      "preco_promocional": 409,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 140,
+      "imagens": [
+        {
+          "url": "/produtos/boucheron-quatre-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoMAAwAA4BaJbACdADbo0Y7CAD+tCvFFdBOsfZ+eiq1WEZ5UDXoUT7MeLNfE/d9sqcApoXber69GhTQyUoiJskqTzEXbmydNciVTEt0QAA=",
+          "alt": "Boucheron Quatre 100 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-042",
+      "codigo": "PP-0042",
+      "nome": "Givenchy Organza 100 ml",
+      "slug": "givenchy-organza-100-ml",
+      "descricao": null,
+      "marca": "Givenchy",
+      "preco": 540,
+      "preco_promocional": 479,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 141,
+      "imagens": [
+        {
+          "url": "/produtos/givenchy-organza-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoMAAwAA4BaJbACdADcJVVwaIAA/rQrxRXQTobrF6M8vr+mQx9lKYTty+/HY7r/FP8/5e6QpTRyi0Vt0oXThADnTZSyjNdWJnvUEAAA",
+          "alt": "Givenchy Organza 100 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-043",
+      "codigo": "PP-0043",
+      "nome": "YSL Libre Flowers & Flames 90 ml",
+      "slug": "ysl-libre-flowers-flames-90-ml",
+      "descricao": null,
+      "marca": "Yves Saint Laurent",
+      "preco": 726,
+      "preco_promocional": 649,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 142,
+      "imagens": [
+        {
+          "url": "/produtos/ysl-libre-flowers-flames-90-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoMAAwAA4BaJbACdAD8A2cKXQAA/rQrxRXQTobrF6M/Jb6pUy2YyMKivkIOhoBvBufwqm9xxracPlepkXBYlk+n9X4BYBKxZ8zdW7CSl2VfpgwAAAA=",
+          "alt": "YSL Libre Flowers & Flames 90 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-044",
+      "codigo": "PP-0044",
+      "nome": "Tommy Girl 200 ml",
+      "slug": "tommy-girl-200-ml",
+      "descricao": null,
+      "marca": "Tommy Hilfiger",
+      "preco": 375,
+      "preco_promocional": 335,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 143,
+      "imagens": [
+        {
+          "url": "/produtos/tommy-girl-200-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoMAAwAA4BaJbACdADdbgxUJ3AAAP60K8UV0E6G6xejPL6/pkMfYRoK6/jNkWngyQHUOnWHpNiv2kGrLPAaB2yZSA8jpmbdI7F3oiPAAAA=",
+          "alt": "Tommy Girl 200 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-045",
+      "codigo": "PP-0045",
+      "nome": "Carolina Herrera Good Girl Jasmine Absolute 80 ml",
+      "slug": "carolina-herrera-good-girl-jasmine-absolute-80-ml",
+      "descricao": null,
+      "marca": "Carolina Herrera",
+      "preco": 692,
+      "preco_promocional": 609,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 144,
+      "imagens": [
+        {
+          "url": "/produtos/carolina-herrera-good-girl-jasmine-absolute-80-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAQCdASoMAAwAA4BaJbACdADW4+RAAP60K8UV0E6x9n56K2fjOlyr3Vhm/K3ENdLrJ/MV/JpzfEQeJLRZ5tIV+Afco06j2OumJqhdnotV4oVjy/HsMq5qzi5ZgIAA",
+          "alt": "Carolina Herrera Good Girl Jasmine Absolute 80 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-046",
+      "codigo": "PP-0046",
+      "nome": "Givenchy Gentleman EDP 100 ml",
+      "slug": "givenchy-gentleman-edp-100-ml",
+      "descricao": null,
+      "marca": "Givenchy",
+      "preco": 446,
+      "preco_promocional": 395,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 145,
+      "imagens": [
+        {
+          "url": "/produtos/givenchy-gentleman-edp-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoMAAwAA4BaJbACdADdR+fkNUHGAAD+tCvFFdBOhusXozy+v6ZDDiyRP2zDJUxEaXZr02earTd8R2ThkxAVybQjbAJi/pRn9569HlXMsjjeCTWc2JS7K5Gt68AAAA==",
+          "alt": "Givenchy Gentleman EDP 100 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-047",
+      "codigo": "PP-0047",
+      "nome": "Chloé Love Story 30 ml",
+      "slug": "chloe-love-story-30-ml",
+      "descricao": null,
+      "marca": "Chloé",
+      "preco": 240,
+      "preco_promocional": 215,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 146,
+      "imagens": [
+        {
+          "url": "/produtos/chloe-love-story-30-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAQCdASoMAAwAA4BaJbACdACvdA08AP60K8UV0E6G6xejPKrP0qMhk8YgeW8xeYuNwk5ftxNWbkV8x35c32LaMfwsvb8AtNsX3SAz6aN2VfptIAA=",
+          "alt": "Chloé Love Story 30 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-048",
+      "codigo": "PP-0048",
+      "nome": "Rabanne 1 Million Night Elixir 100 ml",
+      "slug": "rabanne-1-million-night-elixir-100-ml",
+      "descricao": null,
+      "marca": "Rabanne",
+      "preco": 568,
+      "preco_promocional": 509,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 10,
+      "imagens": [
+        {
+          "url": "/produtos/rabanne-1-million-night-elixir-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwAQCdASoMAAwAA4BaJbACdABKAAD+tCvFFdBOhusXozyqz9Jly/7GNYX99cECiMlTAAldSUCfyuciBNL+5QxorR+DHTh+X4P45gjKqT8DnzxUmaDwBUEL8IeTVAAAAAA=",
+          "alt": "Rabanne 1 Million Night Elixir 100 ml",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/rabanne-1-million-night-elixir-100-ml-2.webp",
+          "largura": 1040,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoIAAwAA4BaJYwAAllI7OUAAN45zvR34k3H9B9AcGQADQxSD9vFNoIw3LnozapgZkebD/TkhJdvN6ALAAA=",
+          "alt": "Rabanne 1 Million Night Elixir 100 ml",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-049",
+      "codigo": "PP-0049",
+      "nome": "Kenzo Flower kit 100 ml",
+      "slug": "kenzo-flower-kit-100-ml",
+      "descricao": null,
+      "marca": "Kenzo",
+      "preco": 435,
+      "preco_promocional": 389,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 148,
+      "imagens": [
+        {
+          "url": "/produtos/kenzo-flower-kit-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoMAAwAA4BaJbACdADGfV9va0AA/rQrxRXQTrH2fnoI2b55Il/IJVHQo9srDWtNw83onYNw60H82wY7MfAxzW2EL0DwyXMlvsUcteAKP6Hn9qpbunV/308+gAA=",
+          "alt": "Kenzo Flower kit 100 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-050",
+      "codigo": "PP-0050",
+      "nome": "Bvlgari Omnia Crystalline EDP 100 ml",
+      "slug": "bvlgari-omnia-crystalline-edp-100-ml",
+      "descricao": null,
+      "marca": "Bvlgari",
+      "preco": 684,
+      "preco_promocional": 609,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 149,
+      "imagens": [
+        {
+          "url": "/produtos/bvlgari-omnia-crystalline-edp-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAQCdASoMAAwAA4BaJbACdADO0pwQAP60K8UV0E6x9n56DH2pZGej9xJumOJ387dmAcwH0SkDj/CSB4ZGD41WhtJgyZF8PhjZnhyXolGPLNJjAAA=",
+          "alt": "Bvlgari Omnia Crystalline EDP 100 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-051",
+      "codigo": "PP-0051",
+      "nome": "Versace Eros EDP 100 ml",
+      "slug": "versace-eros-edp-100-ml",
+      "descricao": null,
+      "marca": "Versace",
+      "preco": 444,
+      "preco_promocional": 389,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 150,
+      "imagens": [
+        {
+          "url": "/produtos/versace-eros-edp-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoMAAwAA4BaJbACdADdkh0P0QQA/rQrxRXQTrH2fnorZ+M6XKun0vBwycChRFZ/X+e6dd+354iKZBYunuUlC8G5r4RBs/IWLQAuQszNtVFkI/Gbpgw3q1q4AAA=",
+          "alt": "Versace Eros EDP 100 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-052",
+      "codigo": "PP-0052",
+      "nome": "Armani Power of You 90 ml",
+      "slug": "armani-power-of-you-90-ml",
+      "descricao": null,
+      "marca": "Giorgio Armani",
+      "preco": 593,
+      "preco_promocional": 525,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 151,
+      "imagens": [
+        {
+          "url": "/produtos/armani-power-of-you-90-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoMAAwAA4BaJbACdH8AE7wEydThYAD+tCvFFdBOsfZ+eitn4zpcq8/8e8jp94rew061cBm1Mav1acfguKhqRkitHqCoWLTWhnIx6/6V8dlWm6R+GXwAAA==",
+          "alt": "Armani Power of You 90 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-053",
+      "codigo": "PP-0053",
+      "nome": "Dolce & Gabbana The One EDP 75 ml",
+      "slug": "dolce-gabbana-the-one-edp-75-ml",
+      "descricao": null,
+      "marca": "Dolce & Gabbana",
+      "preco": 603,
+      "preco_promocional": 532,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 152,
+      "imagens": [
+        {
+          "url": "/produtos/dolce-gabbana-the-one-edp-75-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoMAAwAA4BaJbACdADdh+HWNSuAAP60K8UV0E6x9n56KrVYRjrybDSn4mB19DPL2QbPMTro8wO3N44oY4T3DlsPDh6hMBkbG+HE4dawWGX6AkTtAAA=",
+          "alt": "Dolce & Gabbana The One EDP 75 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-054",
+      "codigo": "PP-0054",
+      "nome": "Givenchy Irresistible kit 80 ml",
+      "slug": "givenchy-irresistible-kit-80-ml",
+      "descricao": null,
+      "marca": "Givenchy",
+      "preco": 545,
+      "preco_promocional": 479,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 153,
+      "imagens": [
+        {
+          "url": "/produtos/givenchy-irresistible-kit-80-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoMAAwAA4BaJbACdADcJN8CwAD+tCvFFdBOsfZ+eiq1WEY691sShRHJfoiHeV+EQk9z9DmrDvqVuf+16xagPrIh/H/j3Eb4/QIJeoIAAAA=",
+          "alt": "Givenchy Irresistible kit 80 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-055",
+      "codigo": "PP-0055",
+      "nome": "Armani Acqua di Giò Profondo 200 ml",
+      "slug": "armani-acqua-di-gio-profondo-200-ml",
+      "descricao": null,
+      "marca": "Giorgio Armani",
+      "preco": 867,
+      "preco_promocional": 775,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 11,
+      "imagens": [
+        {
+          "url": "/produtos/armani-acqua-di-gio-profondo-200-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoMAAwAA4BaJbACdACqY5OhAAD+tCvFFdBOsfZ+eiq1WEc2g0k2LJGEdDGbts9BZKT1bmSe7z55YPIXw8WAOX9sta6C8njbJKlwo0NKgsCWqutkKpnhWS9IAAA=",
+          "alt": "Armani Acqua di Giò Profondo 200 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-056",
+      "codigo": "PP-0056",
+      "nome": "Givenchy Gentleman Boisée EDP 100 ml",
+      "slug": "givenchy-gentleman-boisee-edp-100-ml",
+      "descricao": null,
+      "marca": "Givenchy",
+      "preco": 446,
+      "preco_promocional": 398,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 155,
+      "imagens": [
+        {
+          "url": "/produtos/givenchy-gentleman-boisee-edp-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoMAAwAA4BaJbACdADdh0qNEwngAP60K8UV0E6x9n56KrVYRnlQHtgyLhyMxa6WdZsfjg4NbR4iOWQX17COmu2Q1RnAcPyG813qaS4mSfNBvkIVr4n8RHgA",
+          "alt": "Givenchy Gentleman Boisée EDP 100 ml",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-057",
+      "codigo": "PP-0057",
+      "nome": "Chloé EDP 100 ml",
+      "slug": "chloe-edp-100-ml",
+      "descricao": null,
+      "marca": "Chloé",
+      "preco": 562,
+      "preco_promocional": 497,
+      "categoria_slug": "perfumes",
+      "tamanhos": [],
+      "cores": [],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 156,
+      "imagens": [
+        {
+          "url": "/produtos/chloe-edp-100-ml.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoMAAwAA4BaJbACdAD8vmmleQAA/rQrxRXQTrH2f00rwobF9NfKgO4Zc00djwn7wjxa07zVxq2+vMZp1BZGOk/Ax08/j3Eb4/QEidoAAAA=",
+          "alt": "Chloé EDP 100 ml",
+          "ordem": 0
+        }
+      ]
+    }
+  ],
+  "hero": [
+    {
+      "url": "/produtos/camiseta-hollister-big-fin-riders.webp",
+      "largura": 1200,
+      "altura": 1084,
+      "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoMAAsAA4BaJZQCw7ELUmMnmIAA/oXJtl56iUU9+Zz1kgiEdwWsd5cpfG6asNoCI45UIxJhKikNx3PIzGqVUbE+qUQoL/P4DacOPuxvGguAAAAA",
+      "alt": "Camiseta Hollister Big Fin Riders",
+      "ordem": 0,
+      "slug": "camiseta-hollister-big-fin-riders"
+    },
+    {
+      "url": "/produtos/camisa-milan-retro-2007-bwin.webp",
+      "largura": 1170,
+      "altura": 1200,
+      "blur": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoMAAwAA4BaJaQAAxZlvN09SAAA/url6KjFFXY9DeSsjDWlzr4SqsdTNLWn5hpLqFgAAA==",
+      "alt": "Camisa Milan retrô 2007 bwin",
+      "ordem": 0,
+      "slug": "camisa-milan-retro-2007-bwin"
+    },
+    {
+      "url": "/produtos/camisa-sao-paulo-new-balance-2024.webp",
+      "largura": 998,
+      "altura": 1280,
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoJAAwAA4BaJYwCdADb8XFsAAD+T4N1H6Mct5I03UMj9NyomJmF0j8yQETdKzJxQVlydIt6+ZRcHyJi8qJBv8CfSyHsAA==",
+      "alt": "Camisa São Paulo New Balance 2024",
+      "ordem": 0,
+      "slug": "camisa-sao-paulo-new-balance-2024"
+    },
+    {
+      "url": "/produtos/tenis-nike-sb-bege-e-laranja.webp",
+      "largura": 1125,
+      "altura": 1500,
+      "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoJAAwAA4BaJZACdADZY7RVwAD+QRc/FwUfZ8rG6qHYtAnjFWt2yVMPmGocE48z1tjpfVs7E387t/GKM+DfJbiCN0wPsAT1YAAAAA==",
+      "alt": "Tênis Nike SB bege e laranja",
+      "ordem": 0,
+      "slug": "tenis-nike-sb-bege-e-laranja"
+    },
+    {
+      "url": "/produtos/tenis-lv-trainer-azul.webp",
+      "largura": 960,
+      "altura": 1026,
+      "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoLAAwAA4BaJYwCdAYuHn0XFLPwAAD7c033KIM22B604AGUBjUjkbleilvEBdERX0TU0a7ZgBDdfrTK7q2rSq0/7WvFmr+3gpMAcwIKbf2ClTMGmGln2v6zI2dgAAAA",
+      "alt": "Tênis LV Trainer azul",
+      "ordem": 0,
+      "slug": "tenis-lv-trainer-azul"
+    },
+    {
+      "url": "/produtos/tenis-adidas-campus-azul.webp",
+      "largura": 1125,
+      "altura": 1500,
+      "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoJAAwAA4BaJagCdAYtpmxJizMHMwAA/rp0QYYbKviwzPh+mQkP268bSy5ETTTLjjXvtb9YbRYAWHAz2wZbYgsekK2KzBnl1JR0yhy0ygprwAAA",
+      "alt": "Tênis adidas Campus azul",
+      "ordem": 0,
+      "slug": "tenis-adidas-campus-azul"
+    },
+    {
+      "url": "/produtos/tenis-nike-sb-dunk-verde.webp",
+      "largura": 1200,
+      "altura": 1389,
+      "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABwAgCdASoKAAwAA4BaJbACdDBRAafj6sG1bpAAAP5J3gD2Yby4z755aOLyTm4csKwEt/tYozPqZ4Gslk6GR7e/Y6TsVbyZH3bInpeSvN/vwzI0hy2rSHfkGRMs0X/ktJ6WJQC4al9o73idW/lV/InV8cWQzhbWabHCCAAA",
+      "alt": "Tênis Nike SB Dunk verde",
+      "ordem": 0,
+      "slug": "tenis-nike-sb-dunk-verde"
+    },
+    {
+      "url": "/produtos/boss-bottled-edt-coffret-100-ml.webp",
+      "largura": 1080,
+      "altura": 1080,
+      "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoMAAwAA4BaJbACdADXBvWpgAD+tCvFFdBOsfZ+eiq1WEZ5UDXzB7V2UY5Pdx7/37NKH3VJ1DVIKAZ1bclV5Abyv3UVzLFnEYjEOaDfFAh6nLMBAAA=",
+      "alt": "Boss Bottled EDT coffret 100 ml",
+      "ordem": 0,
+      "slug": "boss-bottled-edt-coffret-100-ml"
+    },
+    {
+      "url": "/produtos/versace-eros-flame-100-ml.webp",
+      "largura": 1080,
+      "altura": 1080,
+      "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoMAAwAA4BaJbACdADcn8IEzT6AAP60K8UV0E6x9n56K2fjOlyrLoP3aq1Sw9ywc+b7L1fCsWjeduD5fy5R+ZmiGVWgEl8Crr1QYKJTdduTlm/YxbByQ2iOoAAAAA==",
+      "alt": "Versace Eros Flame 100 ml",
+      "ordem": 0,
+      "slug": "versace-eros-flame-100-ml"
+    },
+    {
+      "url": "/produtos/rabanne-1-million-night-elixir-100-ml.webp",
+      "largura": 1080,
+      "altura": 1080,
+      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwAQCdASoMAAwAA4BaJbACdABKAAD+tCvFFdBOhusXozyqz9Jly/7GNYX99cECiMlTAAldSUCfyuciBNL+5QxorR+DHTh+X4P45gjKqT8DnzxUmaDwBUEL8IeTVAAAAAA=",
+      "alt": "Rabanne 1 Million Night Elixir 100 ml",
+      "ordem": 0,
+      "slug": "rabanne-1-million-night-elixir-100-ml"
+    },
+    {
+      "url": "/produtos/armani-acqua-di-gio-profondo-200-ml.webp",
+      "largura": 1080,
+      "altura": 1080,
+      "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoMAAwAA4BaJbACdACqY5OhAAD+tCvFFdBOsfZ+eiq1WEc2g0k2LJGEdDGbts9BZKT1bmSe7z55YPIXw8WAOX9sta6C8njbJKlwo0NKgsCWqutkKpnhWS9IAAA=",
+      "alt": "Armani Acqua di Giò Profondo 200 ml",
+      "ordem": 0,
+      "slug": "armani-acqua-di-gio-profondo-200-ml"
+    }
+  ]
+}
