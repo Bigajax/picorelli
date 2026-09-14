@@ -3,14 +3,15 @@ import Image from "next/image";
 /**
  * A marca, recortada da própria logo (preta e dourada, 1242px): o
  * monograma R no quadrado aberto e o letreiro PICORELLI PREMIUM com a
- * coroa. Como o fundo do site é a mesma noite da logo, entram como são.
+ * coroa. O fundo preto do JPEG some em mix-blend-mode: screen, que só
+ * deixa passar o que é mais claro que o chão: o ouro.
  */
 export function Monograma({ className = "" }: { className?: string }) {
-  return <Image src="/marca/monograma.png" alt="" aria-hidden="true" width={400} height={400} sizes="120px" priority className={className} />;
+  return <Image src="/marca/monograma.png" alt="" aria-hidden="true" width={400} height={400} sizes="120px" priority className={`mix-blend-screen ${className}`} />;
 }
 
 export function Letreiro({ className = "" }: { className?: string }) {
-  return <Image src="/marca/letreiro.png" alt="Picorelli Premium" width={900} height={315} sizes="(max-width: 640px) 60vw, 320px" priority className={className} />;
+  return <Image src="/marca/letreiro.png" alt="Picorelli Premium" width={900} height={315} sizes="(max-width: 640px) 60vw, 320px" priority className={`mix-blend-screen ${className}`} />;
 }
 
 /* a assinatura do estúdio, em máscara, pintada pela cor do texto */

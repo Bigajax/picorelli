@@ -3,8 +3,8 @@
 /* ─────────────────────────────────────────────────────────────
    PICORELLI PREMIUM — tokens.
 
-   A logo é preta e dourada, e a página obedece: o chão é veludo (não
-   preto puro, um carvão com grão), o dourado é FIO e TIPOGRAFIA, nunca
+   A logo é preta e dourada, e a página obedece: o chão é o mesmo preto
+   da logo (veludo, #0a0a0a), o dourado é FIO e TIPOGRAFIA, nunca
    bloco cheio (a única exceção é o botão de ação), e a moldura de canto
    aberto do monograma R é o dispositivo que segura o hero e os cartões.
 
@@ -13,15 +13,15 @@
    aqui viram um papel claro: o painel é da dona, não é a vitrine.
    ───────────────────────────────────────────────────────────── */
 @theme static {
-  --color-veludo: #141414;
-  --color-carvao: #1f1f1f;
-  --color-carvao-claro: #2a2a2a;
+  --color-veludo: #0a0a0a;
+  --color-carvao: #161616;
+  --color-carvao-claro: #202020;
   --color-ouro: #c9a227;
   --color-ouro-claro: #e6c86a;
   --color-ouro-fundo: #8a6e1a;
   --color-marfim: #f3ede0;
   --color-marfim-fraco: #9a9384;
-  --color-fio: #3a3527;
+  --color-fio: #2e2a1f;
 
   --color-off-white: #faf7f0;
   --color-cimento-claro: #f2eee4;
@@ -36,15 +36,15 @@
 }
 
 :root {
-  --veludo: #141414;
-  --carvao: #1f1f1f;
-  --carvao-claro: #2a2a2a;
+  --veludo: #0a0a0a;
+  --carvao: #161616;
+  --carvao-claro: #202020;
   --ouro: #c9a227;
   --ouro-claro: #e6c86a;
   --ouro-fundo: #8a6e1a;
   --marfim: #f3ede0;
   --marfim-fraco: #9a9384;
-  --fio: #3a3527;
+  --fio: #2e2a1f;
 
   --off-white: #faf7f0;
   --cimento-claro: #f2eee4;
@@ -80,9 +80,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  /* o grão do veludo: ruído fino, fixo, quase invisível */
   background-color: var(--veludo);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .95 0 0 0 0 .8 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
 }
 
 /* O painel pinta o próprio chão: ver app/painel/layout.tsx */
@@ -510,8 +508,24 @@ body {
   bottom: 0.625rem;
   right: 0.625rem;
 }
+/* a entrada da vitrine: os cantos se desenham uma vez, ao abrir a página */
+.canto--entra::before,
+.canto--entra::after {
+  animation: canto-desenha 700ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: inherit;
+}
+@keyframes canto-desenha {
+  from {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+}
+
 .group:hover .canto::before,
-.group:hover .canto::after {
+.group:hover .canto::after,
+.group.canto:hover::before,
+.group.canto:hover::after {
   width: 2.25rem;
   height: 2.25rem;
   border-color: var(--ouro-claro);

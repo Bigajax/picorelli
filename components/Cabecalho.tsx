@@ -31,7 +31,7 @@ export function Cabecalho({ categorias, linkWhats }: { categorias: Categoria[]; 
 
   return (
     <header className="relative z-50 border-b border-[color:var(--fio)] bg-veludo">
-      <div className="relative z-50 mx-auto flex h-[5rem] max-w-[72rem] items-center justify-between gap-3 px-4 sm:px-6 lg:grid lg:h-[6.5rem] lg:grid-cols-[1fr_auto_1fr] lg:px-10">
+      <div className="relative z-50 mx-auto flex h-[5rem] bg-veludo max-w-[72rem] items-center justify-between gap-3 px-4 sm:px-6 lg:grid lg:h-[6.5rem] lg:grid-cols-[1fr_auto_1fr] lg:px-10">
         <nav aria-label="Principal" className="order-1 flex items-center gap-4 lg:gap-6">
           <Link href="/catalogo" className="mono-rotulo hidden text-marfim hover:text-ouro sm:block">
             Catálogo

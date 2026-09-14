@@ -27,7 +27,7 @@ export default async function Home() {
 
   return (
     <>
-      <Hero frase={config.frase_hero || configPadrao.frase_hero} categorias={ativas} linkWhats={whats} />
+      <Hero frase={config.frase_hero || configPadrao.frase_hero} estrelas={destaques} linkWhats={whats} />
 
       <Prateleira id="titulo-destaques" titulo="Chegou agora" href="/catalogo" verTudo="Ver tudo" produtos={destaques} categorias={porSlug} modo="trilho" prioridade />
 
