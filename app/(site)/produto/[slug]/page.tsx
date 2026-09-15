@@ -84,15 +84,15 @@ export default async function PaginaProduto({ params }: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <div className="mx-auto max-w-[72rem] px-4 pb-20 pt-6 sm:px-6 lg:px-10 lg:pt-10">
+      <div className="miolo pb-20 pt-6 lg:pt-10">
         <nav aria-label="Você está em" className="miudo mb-6">
-          <Link href="/catalogo" className="hover:text-ouro-claro">
+          <Link href="/catalogo" className="hover:text-ouro-texto">
             Catálogo
           </Link>
           {categoria && !atendimento ? (
             <>
               <span className="px-2">/</span>
-              <Link href={`/catalogo/${categoria.slug}`} className="hover:text-ouro-claro">
+              <Link href={`/catalogo/${categoria.slug}`} className="hover:text-ouro-texto">
                 {categoria.nome}
               </Link>
             </>
@@ -104,16 +104,16 @@ export default async function PaginaProduto({ params }: Props) {
 
           <div className="lg:pt-2">
             {categoria ? <p className="etiqueta">{categoria.nome}</p> : null}
-            <h1 className="manchete mt-2 text-[clamp(1.5rem,3vw,2.125rem)] text-marfim">{produto.nome}</h1>
+            <h1 className="manchete mt-2 text-[clamp(1.5rem,3vw,2.125rem)] text-tinta">{produto.nome}</h1>
 
-            <div className="mt-5 border-b border-fio pb-5">
+            <div className="mt-5 border-b border-linha pb-5">
               {vigente ? (
-                <p className="preco flex items-baseline gap-3 text-[1.75rem] text-ouro">
-                  {promo && cheio ? <span className="text-[1.125rem] text-marfim-fraco line-through">{cheio}</span> : null}
+                <p className="preco flex items-baseline gap-3 text-[1.75rem] text-tinta">
+                  {promo && cheio ? <span className="text-[1.125rem] text-tinta-fraca line-through">{cheio}</span> : null}
                   <span>{vigente}</span>
                 </p>
               ) : (
-                <p className="falada text-[1.125rem] text-marfim">
+                <p className="falada text-[1.125rem] text-tinta">
                   Preço no WhatsApp.
                 </p>
               )}
@@ -122,26 +122,26 @@ export default async function PaginaProduto({ params }: Props) {
             {/* a ficha: o que se sabe da peça, uma linha por coisa. O que
                 não se sabe não aparece; a observação do pedido cobre o resto. */}
             {produto.descricao ? (
-              <p className="mt-6 max-w-[52ch] text-[0.9375rem] leading-relaxed text-marfim">{produto.descricao}</p>
+              <p className="mt-6 max-w-[52ch] text-[0.9375rem] leading-relaxed text-tinta">{produto.descricao}</p>
             ) : null}
             {!atendimento && (produto.marca || produto.cores.length === 1 || produto.tamanhos.length) ? (
               <dl className="mt-5 grid grid-cols-[auto_minmax(0,1fr)] gap-x-6 gap-y-1.5 text-[0.9375rem]">
                 {produto.marca ? (
                   <>
-                    <dt className="text-marfim-fraco">Marca</dt>
-                    <dd className="text-marfim">{produto.marca}</dd>
+                    <dt className="text-tinta-fraca">Marca</dt>
+                    <dd className="text-tinta">{produto.marca}</dd>
                   </>
                 ) : null}
                 {produto.cores.length === 1 ? (
                   <>
-                    <dt className="text-marfim-fraco">Cor</dt>
-                    <dd className="text-marfim">{produto.cores[0]}</dd>
+                    <dt className="text-tinta-fraca">Cor</dt>
+                    <dd className="text-tinta">{produto.cores[0]}</dd>
                   </>
                 ) : null}
                 {produto.tamanhos.length ? (
                   <>
-                    <dt className="text-marfim-fraco">Tamanhos</dt>
-                    <dd className="text-marfim">{produto.tamanhos.join(", ")}</dd>
+                    <dt className="text-tinta-fraca">Tamanhos</dt>
+                    <dd className="text-tinta">{produto.tamanhos.join(", ")}</dd>
                   </>
                 ) : null}
               </dl>

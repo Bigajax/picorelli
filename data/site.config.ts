@@ -71,8 +71,9 @@ export const configPadrao: Record<string, string> = {
   whatsapp: site.whatsapp,
   instagram: site.instagram,
   cidade: site.cidade,
-  aviso_topo: "Roupas | Tênis | Perfumes | Correntes | Pedido pelo WhatsApp, entrega em São Paulo",
-  frase_hero: "Tênis, camisa, perfume e corrente. Premium, no seu WhatsApp.",
+  /* frases separadas por "|": o cabeçalho reveza uma de cada vez */
+  aviso_topo: "Pedido pelo WhatsApp, entrega em São Paulo | Perfumes importados com preço na vitrine | Tênis, camisa de time, perfume e corrente num lugar só | Correntes: pergunte no WhatsApp",
+  frase_hero: "Tênis. Camisa. Perfume. Corrente.",
   endereco: "",
   horario: "",
 };

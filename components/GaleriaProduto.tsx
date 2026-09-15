@@ -21,7 +21,7 @@ export function GaleriaProduto({ imagens, nome }: { imagens: Imagem[]; nome: str
                 onClick={() => setAtual(i)}
                 aria-label={`Ver foto ${i + 1} de ${imagens.length}`}
                 aria-current={i === atual}
-                className={`foto block h-20 w-16 lg:h-24 lg:w-20 ${i === atual ? "outline outline-1 outline-offset-2 outline-ouro" : ""}`}
+                className={`foto block h-20 w-16 lg:h-24 lg:w-20 ${i === atual ? "outline outline-1 outline-offset-2 outline-tinta" : ""}`}
               >
                 <Image src={img.url} alt="" fill sizes="80px" className="object-cover" />
               </button>

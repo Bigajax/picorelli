@@ -64,12 +64,12 @@ export function CompraProduto({ produto, whatsapp, base }: { produto: Produto; w
       <div className="grid gap-5 sm:grid-cols-[auto_minmax(0,1fr)] sm:items-end">
         <div>
           <p className="etiqueta mb-2">Quantidade</p>
-          <div className="inline-flex items-stretch overflow-hidden rounded-[4px] border border-fio bg-carvao">
+          <div className="inline-flex items-stretch overflow-hidden rounded-[var(--raio-mini)] border border-linha bg-papel-2">
             <button
               type="button"
               onClick={() => setQuantidade((q) => Math.max(1, q - 1))}
               aria-label="Uma a menos"
-              className="px-4 text-[1.125rem] font-semibold text-marfim hover:bg-carvao-claro disabled:opacity-40"
+              className="px-4 text-[1.125rem] font-semibold text-tinta hover:bg-papel-2 disabled:opacity-40"
               disabled={quantidade <= 1}
             >
               −
@@ -82,9 +82,9 @@ export function CompraProduto({ produto, whatsapp, base }: { produto: Produto; w
               value={quantidade}
               onChange={(e) => setQuantidade(Math.min(99, Math.max(1, Number(e.target.value) || 1)))}
               aria-label="Quantidade"
-              className="w-14 border-x border-fio bg-carvao text-center text-[1rem] font-semibold text-marfim [appearance:textfield] focus:outline-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+              className="w-14 border-x border-linha bg-papel-2 text-center text-[1rem] font-semibold text-tinta [appearance:textfield] focus:outline-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
             />
-            <button type="button" onClick={() => setQuantidade((q) => Math.min(99, q + 1))} aria-label="Uma a mais" className="px-4 text-[1.125rem] font-semibold text-marfim hover:bg-carvao-claro">
+            <button type="button" onClick={() => setQuantidade((q) => Math.min(99, q + 1))} aria-label="Uma a mais" className="px-4 text-[1.125rem] font-semibold text-tinta hover:bg-papel-2">
               +
             </button>
           </div>
@@ -103,13 +103,13 @@ export function CompraProduto({ produto, whatsapp, base }: { produto: Produto; w
         <input value={observacao} onChange={(e) => setObservacao(e.target.value)} placeholder="Cor, detalhe, pergunta" maxLength={140} />
       </label>
 
-      <div className="canto canto--grande p-5 sm:p-6">
+      <div className="rounded-[var(--raio)] border border-linha p-5 sm:p-6">
         <div className="flex items-baseline justify-between gap-4">
-          <span className="text-[0.9375rem] text-marfim-fraco">
+          <span className="text-[0.9375rem] text-tinta-fraca">
             {quantidade} {quantidade === 1 ? "unidade" : "unidades"}
             {preco !== null ? ` de ${precoBRL(preco)}` : ""}
           </span>
-          <span className="preco text-[1.375rem] text-ouro">{total !== null ? precoBRL(total) : "a combinar"}</span>
+          <span className="preco text-[1.375rem] text-tinta">{total !== null ? precoBRL(total) : "a combinar"}</span>
         </div>
         <a href={link} target="_blank" rel="noreferrer" className="btn btn--cta mt-4 w-full">
           Pedir pelo WhatsApp

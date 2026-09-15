@@ -5,7 +5,7 @@ import { carregarCatalogo, obterConfig } from "@/lib/dados";
 import { GRUPOS } from "@/lib/grupos";
 import { linkGeral } from "@/lib/whatsapp";
 
-type Props = { params: Promise<{ categoria: string }> };
+type Props = { params: Promise<{ categoria: string }>; searchParams?: Promise<{ busca?: string }> };
 
 /* uma porta pode ser uma categoria do catálogo ou um grupo delas (Roupas) */
 async function resolver(slug: string) {
@@ -35,8 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function PaginaCategoria({ params }: Props) {
+export default async function PaginaCategoria({ params, searchParams }: Props) {
   const { categoria } = await params;
+  const sp = (await searchParams) ?? {};
   const [r, config] = await Promise.all([resolver(categoria), obterConfig()]);
   if (!r) notFound();
 
@@ -44,15 +45,15 @@ export default async function PaginaCategoria({ params }: Props) {
 
   return (
     <>
-      <header className="mx-auto max-w-[72rem] px-4 pb-6 pt-8 sm:px-6 lg:px-10 lg:pb-8 lg:pt-12">
+      <header className="miolo pb-6 pt-8 lg:pb-8 lg:pt-12">
         <p className="etiqueta">Picorelli Premium</p>
-        <h1 className="manchete mt-2 text-[clamp(1.75rem,4vw,2.5rem)] text-marfim">{r.nome}</h1>
-        <p className="falada mt-2 text-[1.0625rem] text-marfim-fraco">
+        <h1 className="manchete mt-2 text-[clamp(1.75rem,4vw,2.5rem)] text-tinta">{r.nome}</h1>
+        <p className="falada mt-2 text-[1.0625rem] text-tinta-fraca">
           {quantas} {quantas === 1 ? "peça" : "peças"}
           {r.grupo ? ", entre camisetas e camisas de futebol." : "."}
         </p>
       </header>
-      <Catalogo produtos={r.pecas} categorias={r.categorias} categoriaAtual={r.grupo ? undefined : categoria} escopoFechado linkWhats={linkGeral(config.whatsapp)} />
+      <Catalogo produtos={r.pecas} categorias={r.categorias} categoriaAtual={r.grupo ? undefined : categoria} escopoFechado buscaInicial={sp.busca ?? ""} linkWhats={linkGeral(config.whatsapp)} />
     </>
   );
 }

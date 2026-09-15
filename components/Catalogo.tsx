@@ -173,10 +173,10 @@ export function Catalogo({
   );
 
   return (
-    <div className="mx-auto max-w-[72rem] px-4 pb-20 sm:px-6 lg:px-10">
+    <div className="miolo pb-20">
       {/* as categorias sempre à vista, num trilho de pílulas: no celular rola
           de lado, no desktop cabe inteiro. É o filtro que mais se usa. */}
-      <nav aria-label="Categorias" className="faixa-scroll -mx-4 flex gap-2 overflow-x-auto px-4 pb-3 sm:-mx-6 sm:px-6 lg:mx-0 lg:flex-wrap lg:px-0">
+      <nav aria-label="Categorias" className="faixa-scroll sangra flex gap-2 overflow-x-auto pb-3 lg:mx-0 lg:flex-wrap lg:px-0">
         <Link href="/catalogo" className={`chip chip--quadrado shrink-0 ${!categoriaAtual && !escopoFechado ? "chip--cheio" : ""}`} aria-current={!categoriaAtual && !escopoFechado ? "page" : undefined}>
           Tudo
         </Link>
@@ -193,11 +193,11 @@ export function Catalogo({
       </nav>
 
       {/* barra de comando: busca, contagem, ordem e o filtro fino */}
-      <div className="mt-2 flex flex-col gap-4 border-y border-fio py-4 sm:flex-row sm:items-center sm:gap-8">
+      <div className="mt-2 flex flex-col gap-4 border-y border-linha py-4 sm:flex-row sm:items-center sm:gap-8">
         <div className="flex min-w-0 flex-1 items-center gap-4">
           <label
             htmlFor="busca-catalogo"
-            className="mono-rotulo hidden shrink-0 text-ouro sm:block"
+            className="mono-rotulo hidden shrink-0 text-ouro-texto sm:block"
           >
             Buscar
           </label>
@@ -212,15 +212,15 @@ export function Catalogo({
         </div>
 
         <div className="flex items-center gap-6">
-          <p className="mono shrink-0 text-[0.8125rem] text-marfim-fraco">
-            <span className="preco text-[1.125rem] text-marfim">{lista.length}</span>{" "}
+          <p className="mono shrink-0 text-[0.8125rem] text-tinta-fraca">
+            <span className="preco text-[1.125rem] text-tinta">{lista.length}</span>{" "}
             {lista.length === 1 ? "peça" : "peças"}
           </p>
 
           <div className="flex items-center gap-3">
             <label
               htmlFor="ordem"
-              className="mono-rotulo hidden shrink-0 text-ouro md:block"
+              className="mono-rotulo hidden shrink-0 text-ouro-texto md:block"
             >
               Ordem
             </label>
@@ -272,10 +272,10 @@ export function Catalogo({
             </>
           ) : (
             <div className="mx-auto max-w-md cartao p-10 text-center">
-              <p className="manchete text-[1.25rem] text-marfim">
+              <p className="manchete text-[1.25rem] text-tinta">
                 Nenhuma peça com esses filtros
               </p>
-              <p className="mt-3 text-sm leading-relaxed text-marfim">
+              <p className="mt-3 text-sm leading-relaxed text-tinta">
                 Limpe os filtros ou pergunte no WhatsApp: a loja tem mais do que a vitrine mostra.
               </p>
               <div className="mt-7 flex flex-wrap justify-center gap-3">
@@ -302,15 +302,15 @@ export function Catalogo({
           onClick={() => setFiltrosAbertos(false)}
         >
           <div
-            className="ml-auto flex h-full w-[min(22rem,90vw)] flex-col overflow-y-auto bg-carvao p-6"
+            className="ml-auto flex h-full w-[min(22rem,90vw)] flex-col overflow-y-auto bg-papel-2 p-6"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="mb-8 flex items-center justify-between">
-              <span className="mono-rotulo text-ouro">Filtros</span>
+              <span className="mono-rotulo text-ouro-texto">Filtros</span>
               <button
                 type="button"
                 onClick={() => setFiltrosAbertos(false)}
-                className="mono-rotulo text-ouro"
+                className="mono-rotulo text-ouro-texto"
               >
                 Fechar
               </button>

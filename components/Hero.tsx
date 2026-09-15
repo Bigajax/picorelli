@@ -3,12 +3,14 @@ import Link from "next/link";
 import type { Produto } from "@/lib/tipos";
 
 /**
- * A abertura. À esquerda a manchete em romana, grande, como um letreiro.
- * À direita a vitrine de verdade: a estrela da vez segurada pela moldura
- * de canto aberto (o quadrado do R), com uma segunda peça encostada por
- * cima, como duas fotos na bancada. Embaixo, a linha que a própria logo
- * carrega, ROUPAS | TÊNIS | PERFUMES | CORRENTES, vira a navegação: uma
- * faixa entre dois fios de ouro, cada porta separada por um fio vertical.
+ * O banner de abertura, de largura total como nas lojas: a estrela da
+ * vez em foto grande à direita, o preto da logo subindo por cima dela
+ * até virar chão do texto à esquerda. No celular a foto ocupa o alto
+ * (com o tênis inteiro à vista) e o texto vem centrado logo abaixo,
+ * sobre o preto. A manchete (do painel, as quatro
+ * coisas que a loja vende) em romana grande; embaixo, as duas placas
+ * chanfradas. Uma linha diz qual é a
+ * peça da foto, porque banner de loja mostra o que tem.
  */
 export function Hero({
   frase,
@@ -20,110 +22,60 @@ export function Hero({
   linkWhats: string;
 }) {
   const principal = estrelas.find((p) => p.categoria_slug === "tenis") ?? estrelas[0];
-  const segunda = estrelas.find((p) => p !== principal && p.categoria_slug !== "perfumes") ?? estrelas[1];
+  const capa = principal?.imagens[0];
 
   return (
-    <section aria-labelledby="titulo-hero">
-      <div className="mx-auto grid max-w-[72rem] gap-10 px-4 pt-10 sm:px-6 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:items-center lg:gap-16 lg:px-10 lg:pt-16">
-        <div>
-          <p className="etiqueta">São Paulo, zona oeste. Pedido pelo WhatsApp</p>
-          <h1 id="titulo-hero" className="manchete mt-4 max-w-[16ch] text-[clamp(2rem,5.2vw,3.5rem)] text-marfim">
-            {frase}
-          </h1>
-          <p className="falada mt-6 max-w-[38ch] text-[1.0625rem] text-marfim-fraco">
-            Você escolhe aqui, manda a mensagem e a loja confirma. Sem cadastro, sem carrinho.
+    <section aria-labelledby="titulo-hero" className="escuro relative overflow-hidden">
+      {capa ? (
+        <div className="absolute inset-x-0 top-0 h-[20rem] sm:h-[24rem] lg:inset-y-0 lg:left-auto lg:right-0 lg:h-auto lg:w-[58%]">
+          <Image
+            src={capa.url}
+            alt=""
+            fill
+            priority
+            sizes="(max-width: 1024px) 100vw, 58vw"
+            placeholder={capa.blur ? "blur" : "empty"}
+            blurDataURL={capa.blur ?? undefined}
+            className="object-cover object-[center_62%] lg:object-[center_40%]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-veludo from-8% via-veludo/35 via-45% to-veludo/10 lg:bg-gradient-to-r lg:from-veludo lg:from-0% lg:via-veludo/55 lg:to-transparent" />
+        </div>
+      ) : null}
+
+      <div className="miolo relative pb-10 pt-[16rem] sm:pt-[19.5rem] lg:py-20">
+        {/* no celular tudo centrado sobre a foto, como o banner das lojas; no desktop, à esquerda */}
+        <div className="mx-auto flex max-w-[34rem] flex-col items-center text-center lg:mx-0 lg:items-start lg:text-left">
+          <span className="placa-etiqueta">Chegou agora</span>
+
+          <div className="mt-6">
+            <h1 id="titulo-hero" className="manchete max-w-[19ch] text-[clamp(1.75rem,7.5vw,2.25rem)] text-marfim lg:text-[clamp(1.875rem,4.2vw,3.125rem)]">
+              {frase}
+            </h1>
+          </div>
+
+          <p className="falada mt-5 max-w-[34ch] text-[1rem] text-marfim lg:mt-6 lg:max-w-[40ch] lg:text-[1.0625rem]">
+            As peças mais pedidas da zona oeste, com pedido pelo WhatsApp. Sem cadastro, sem carrinho, sem fila.
           </p>
-          <div className="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-8">
-            <Link href="/catalogo" className="btn btn--cta w-full sm:w-auto">
+
+          <div className="mt-7 flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:items-center sm:gap-4 lg:mt-8">
+            <Link href="/catalogo" className="btn btn--placa btn--placa-ouro">
               Ver o catálogo
             </Link>
-            <a href={linkWhats} target="_blank" rel="noreferrer" className="btn btn--texto">
+            <a href={linkWhats} target="_blank" rel="noreferrer" className="btn btn--placa btn--placa-fio">
               Chamar no WhatsApp
             </a>
           </div>
-        </div>
 
-        {principal ? (
-          <div className="relative mx-auto w-full max-w-[26rem] pb-14 pr-10 sm:pr-14 lg:mx-0 lg:max-w-none lg:justify-self-end">
-            <Link href={`/produto/${principal.slug}`} className="canto canto--grande canto--entra group block p-3">
-              <span className="foto block aspect-[4/5] rounded-[2px]">
-                <Foto produto={principal} sizes="(max-width: 1024px) 90vw, 26rem" prioridade />
-              </span>
-            </Link>
-
-            {segunda ? (
-              /* o .canto é relative, então o absoluto fica no invólucro */
-              <div className="absolute bottom-0 right-0 w-[46%]">
-                <Link
-                  href={`/produto/${segunda.slug}`}
-                  className="canto canto--entra group block bg-veludo p-2 shadow-[0_30px_50px_-20px_rgba(0,0,0,0.9)]"
-                  style={{ animationDelay: "160ms" }}
-                >
-                  <span className="foto block aspect-square rounded-[2px]">
-                    <Foto produto={segunda} sizes="(max-width: 1024px) 40vw, 12rem" />
-                  </span>
-                </Link>
-              </div>
-            ) : null}
-
-            <p className="absolute bottom-3 left-0 max-w-[50%] text-[0.8125rem] leading-snug text-marfim-fraco">
-              <span className="etiqueta block">Chegou agora</span>
-              <Link href={`/produto/${principal.slug}`} className="text-marfim hover:text-ouro">
+          {principal ? (
+            <p className="mt-6 text-[0.8125rem] text-marfim-fraco lg:mt-8">
+              Na foto:{" "}
+              <Link href={`/produto/${principal.slug}`} className="font-bold text-marfim underline decoration-ouro underline-offset-4 hover:text-ouro-claro">
                 {principal.nome}
               </Link>
             </p>
-          </div>
-        ) : null}
+          ) : null}
+        </div>
       </div>
-
-      <nav aria-label="As quatro portas da loja" className="mt-12 border-y border-ouro/60 lg:mt-16">
-        <ul className="mx-auto grid max-w-[72rem] grid-cols-2 lg:grid-cols-4">
-          {[
-            { nome: "Roupas", href: "/catalogo/roupas", nota: "camisetas e camisas de futebol" },
-            { nome: "Tênis", href: "/catalogo/tenis", nota: "Nike, adidas, Boss, LV" },
-            { nome: "Perfumes", href: "/catalogo/perfumes", nota: "importados, com preço" },
-            { nome: "Correntes", href: linkWhats, nota: "pergunte no WhatsApp", externa: true },
-          ].map((p, i) => {
-            const classes = `group flex flex-col items-center gap-1 px-4 py-6 text-center transition-colors hover:bg-carvao lg:py-7 ${i % 2 === 1 ? "border-l border-fio" : ""} ${i >= 2 ? "border-t border-fio lg:border-t-0" : ""} ${i === 2 ? "lg:border-l" : ""}`;
-            const conteudo = (
-              <>
-                <span className="romana text-[clamp(0.9375rem,1.8vw,1.25rem)] text-marfim transition-colors group-hover:text-ouro-claro">{p.nome}</span>
-                <span className="text-[0.8125rem] text-marfim-fraco">{p.nota}</span>
-              </>
-            );
-            return (
-              <li key={p.nome}>
-                {p.externa ? (
-                  <a href={p.href} target="_blank" rel="noreferrer" className={classes}>
-                    {conteudo}
-                  </a>
-                ) : (
-                  <Link href={p.href} className={classes}>
-                    {conteudo}
-                  </Link>
-                )}
-              </li>
-            );
-          })}
-        </ul>
-      </nav>
     </section>
-  );
-}
-
-function Foto({ produto, sizes, prioridade = false }: { produto: Produto; sizes: string; prioridade?: boolean }) {
-  const capa = produto.imagens[0];
-  if (!capa) return null;
-  return (
-    <Image
-      src={capa.url}
-      alt={capa.alt ?? produto.nome}
-      fill
-      priority={prioridade}
-      sizes={sizes}
-      placeholder={capa.blur ? "blur" : "empty"}
-      blurDataURL={capa.blur ?? undefined}
-      className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-    />
   );
 }
