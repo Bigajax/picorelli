@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s · Picorelli Premium",
   },
   description:
-    "Tênis, camisetas, camisas de futebol, perfumes importados e correntes. Você escolhe no site e fecha pelo WhatsApp. Entrega em São Paulo e envio para o Brasil.",
+    "Tênis, camisetas, camisas de time, perfumes importados e correntes. Você escolhe no site e fecha pelo WhatsApp. Entrega em São Paulo, zona oeste.",
   openGraph: {
     type: "website",
     locale: "pt_BR",
