@@ -103,7 +103,7 @@ export function Rodape({
             © {new Date().getFullYear()} Picorelli Premium, São Paulo. {PREVIA ? "Prévia da vitrine, ainda não é a loja." : ""}
           </p>
           <a
-            href="https://rafaelrazeira.com.br/landing-page"
+            href="https://rafaelrazeira.com.br/vitrine-digital"
             target="_blank"
             rel="noreferrer"
             aria-label="Vitrine feita por Rafael Razeira Estúdio"
